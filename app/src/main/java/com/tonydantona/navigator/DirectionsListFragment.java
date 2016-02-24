@@ -1,5 +1,6 @@
 package com.tonydantona.navigator;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 //import android.support.v4.app.Fragment;
@@ -73,6 +74,16 @@ public class DirectionsListFragment extends Fragment implements ListView.OnItemC
     }
 
     @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        if (activity instanceof OnDirectionsDrawerSelectedListener) {
+            mListener = (OnDirectionsDrawerSelectedListener) activity;
+        } else {
+            throw new RuntimeException(activity.toString() + " must implement OnDirectionsDrawerSelectedListener");
+        }
+    }
+
+    @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         inflater.inflate(R.menu.action_drawer, menu);
         super.onCreateOptionsMenu(menu,inflater);
@@ -87,18 +98,6 @@ public class DirectionsListFragment extends Fragment implements ListView.OnItemC
             MainActivity.mDrawerLayout.openDrawer(GravityCompat.END);
         }
         return true;
-//        switch (item.getItemId()) {
-//            case R.id.direction:
-//                if (MainActivity.mDrawerLayout.isDrawerOpen(GravityCompat.END)) {
-//                    MainActivity.mDrawerLayout.closeDrawers();
-//                } else {
-//                    MainActivity.mDrawerLayout.openDrawer(GravityCompat.END);
-//                }
-//                return true;
-//
-//            default:
-//                return super.onOptionsItemSelected(item);
-//        }
     }
 
     @Override
@@ -109,7 +108,6 @@ public class DirectionsListFragment extends Fragment implements ListView.OnItemC
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Toast.makeText(getActivity().getApplicationContext(),"DirectionsListFragment.onItemClick",Toast.LENGTH_LONG).show();
         TextView segment = (TextView) view.findViewById(R.id.segment);
         MainActivity.mDrawerLayout.closeDrawers();
         mListener.onSegmentSelected(segment.getText().toString());
