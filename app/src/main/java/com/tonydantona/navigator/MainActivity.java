@@ -1,19 +1,17 @@
 package com.tonydantona.navigator;
 
+import android.Manifest;
+import android.app.AlertDialog;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
-import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.location.Location;
-import android.location.LocationListener;
-import android.location.LocationManager;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -27,7 +25,6 @@ import com.esri.android.map.ags.ArcGISTiledMapServiceLayer;
 import com.esri.core.geometry.Envelope;
 import com.esri.core.geometry.GeometryEngine;
 import com.esri.core.geometry.Point;
-import com.esri.core.geometry.Polyline;
 import com.esri.core.geometry.SpatialReference;
 import com.esri.core.io.EsriSecurityException;
 import com.esri.core.io.ProxySetup;
@@ -44,53 +41,59 @@ import com.esri.core.tasks.na.RouteParameters;
 import com.esri.core.tasks.na.RouteResult;
 import com.esri.core.tasks.na.RouteTask;
 import com.esri.core.tasks.na.StopGraphic;
+import com.tonydantona.navigator.datatypes.NavRoute;
+import com.tonydantona.navigator.datatypes.NavStop;
+import com.tonydantona.navigator.xmlparser.XMLRouteParser;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements DirectionsListFragment.OnDirectionsDrawerSelectedListener  {
+
+public class MainActivity extends AppCompatActivity implements DirectionsListFragment.OnDirectionsDrawerSelectedListener, LocationServices.ILocationServices {
     //<editor-fold desc="declarations">
     // Main mMapView view
     public static MapView mMapView = null;
     ArcGISTiledMapServiceLayer mTileLayer;
     static final String TILE_LAYER_URL = "http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer";
-    GraphicsLayer mRouteLayer, mHiddenSegmentsLayer;
+    //    static final String TILE_LAYER_URL = "http://wksp0004e94f:6080/arcgis/rest/services/USNatMap/USStreetsCache/MapServer";
+    GraphicsLayer mRouteLayer;
+    GraphicsLayer mHiddenSegmentsLayer;
+    GraphicsLayer mStopsLayer;
 
     // UPS route data references (route as imported from data source)
-    Rte mOdoRoute;
-    List<Stp> mAllStops;
-    List<Stp> mUpcomingStops;
-    static int mAllStopsIndex = 0;
+    NavRoute mOdoRoute;
+    List<NavStop> mUnCompletedStops;
 
-    // Number of upcoming stops to display (includes next and on-deck)
-    final int mUpComingStopCount = 2;
+    // Number of stops to route
+    final int mNumStopsToRoute = 1;
+
+    // Number of stops to show
+    static final int mNumStopsToShow = 1;
 
     // Navigation symbols
     static final int LINE_WEIGHT = 4;
     static final int LINE_ALPHA = 128; // 0-255, transparent-opaque
     static final int STOP_SYMBOL_SIZE = 15;
 
-    //final SimpleMarkerSymbol currentLocSymbol = new SimpleMarkerSymbol(Color.RED, STOP_SYMBOL_SIZE + 5, SimpleMarkerSymbol.STYLE.CIRCLE);
-
     static final LineSymbol NEXT_ROUTE_SYMBOL = new SimpleLineSymbol(Color.GREEN, LINE_WEIGHT, SimpleLineSymbol.STYLE.SOLID).setAlpha(LINE_ALPHA);
     static final LineSymbol ONDECK_ROUTE_SYMBOL = new SimpleLineSymbol(Color.BLUE, LINE_WEIGHT, SimpleLineSymbol.STYLE.DASH).setAlpha(LINE_ALPHA);
     static final LineSymbol FOLLOWING_ROUTE_SYMBOL = new SimpleLineSymbol(Color.MAGENTA, LINE_WEIGHT, SimpleLineSymbol.STYLE.DOT).setAlpha(LINE_ALPHA);
 
-    static final  SimpleMarkerSymbol NEXT_STOP_SYMBOL = new SimpleMarkerSymbol(Color.GREEN, STOP_SYMBOL_SIZE, SimpleMarkerSymbol.STYLE.CIRCLE);
-    static final SimpleMarkerSymbol ONDECK_STOP_SYMBOL = new SimpleMarkerSymbol(Color.BLUE, STOP_SYMBOL_SIZE, SimpleMarkerSymbol.STYLE.CIRCLE);
+    static final SimpleMarkerSymbol CURRENT_LOCATION_SYMBOL = new SimpleMarkerSymbol(Color.BLUE, STOP_SYMBOL_SIZE, SimpleMarkerSymbol.STYLE.TRIANGLE);
+    static final SimpleMarkerSymbol NEXT_STOP_SYMBOL = new SimpleMarkerSymbol(Color.RED, STOP_SYMBOL_SIZE, SimpleMarkerSymbol.STYLE.CIRCLE);
+    static final SimpleMarkerSymbol ONDECK_STOP_SYMBOL = new SimpleMarkerSymbol(Color.GREEN, STOP_SYMBOL_SIZE, SimpleMarkerSymbol.STYLE.CIRCLE);
     static final SimpleMarkerSymbol FOLLOWING_STOP_SYMBOL = new SimpleMarkerSymbol(Color.MAGENTA, STOP_SYMBOL_SIZE, SimpleMarkerSymbol.STYLE.CIRCLE);
+    static final SimpleMarkerSymbol DELIVERY_STOP_SYMBOL = new SimpleMarkerSymbol(Color.BLUE, STOP_SYMBOL_SIZE, SimpleMarkerSymbol.STYLE.CIRCLE);
 
     // Drawer layout for directions list
-    public static DrawerLayout mDrawerLayout;
+    public static  DrawerLayout mDrawerLayout;
 
     // List of the directions for the current route (used for the ListActivity)
     public static ArrayList<String> mCurrDirections = null;
 
     // Symbol used to make route segments "invisible"
     SimpleLineSymbol mSegmentHider = new SimpleLineSymbol(Color.WHITE, 5);
-    // Symbol used to highlight route segments
-    SimpleLineSymbol segmentShower = new SimpleLineSymbol(Color.RED, 5);
 
     ImageView mImgCurrLocation;
     ImageView mImgGetDirections;
@@ -107,6 +110,7 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
     String mRouteSummary = null;
     static final String ROUTE_TASK_URL = "http://sampleserver3.arcgisonline.com/ArcGIS/rest/services/Network/USA/NAServer/Route";
     RouteResult[] mRouteResults = null;
+    Route mCurrRoute = null;
     // Variable to hold server exception to show to user
     Exception mException = null;
     // Update handler
@@ -118,14 +122,11 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
     };
 
     // GPS location
-    public static Point mLocation = null;
-    public LocationManager mLocationManager;
-
-    LocationDisplayManager mLocationDisplayManager;
+    public Point mapLocation = null;
 
     // Spatial references used for projecting points
-    final SpatialReference mWmSpatialReference = SpatialReference.create(102100);
-    final SpatialReference mEgsSpatialReference = SpatialReference.create(4326);
+    public static final SpatialReference mWmSpatialReference = SpatialReference.create(102100);
+    public static final SpatialReference mEgsSpatialReference = SpatialReference.create(4326);
 
     // Debug log tag
     String TAG;
@@ -137,61 +138,32 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
 
     ResultStatus RouteResultStatus = ResultStatus.passed;
 
+    // declared at class level for closure (inner class) reasons
+    int stopIndex;
+
 //</editor-fold>
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Thread.setDefaultUncaughtExceptionHandler(new ExceptionHandler());
 
         // Set credentials for UPS network proxy
         setProxyCredentials();
 
-        // Set debug tag
-        TAG = getString(R.string.app_name);
-
         // Retrieve main activity view from XML layout
         setContentView(R.layout.activity_main);
 
-        setupViewEvents();
+        TAG = getString(R.string.app_name);
         setupMapView();
-        InitializeLocation();
-        LoadRouteData();
+        setupViewEvents();
+        initializeLocation();
+        loadRouteData();
+
+        plotDeliveryStops();
     }
 
-    private void InitializeLocation() {
-        // Set GPS location service
-        mLocationManager = (LocationManager) getSystemService( Context.LOCATION_SERVICE );
-        if ( !mLocationManager.isProviderEnabled( LocationManager.GPS_PROVIDER ) ) {
-            buildAlertMessageNoGps();
-        }
-
-        // Get the location display manager and start reading location. Don't auto-pan to center our position
-        mLocationDisplayManager = mMapView.getLocationDisplayManager();
-        mLocationDisplayManager.setLocationListener(new MyLocationListener());
-        mLocationDisplayManager.start();
-        mLocationDisplayManager.setAutoPanMode(LocationDisplayManager.AutoPanMode.OFF);
-    }
-
-    private void setupMapView() {
-        // Retrieve the mMapView and initial extent from XML layout
-        mMapView = (MapView) findViewById(R.id.map);
-
-        // Add tiled layer to MapView
-        mTileLayer = new ArcGISTiledMapServiceLayer(TILE_LAYER_URL);
-        mMapView.addLayer(mTileLayer);
-        // Add the route graphic layer (shows the full route)
-        mRouteLayer = new GraphicsLayer();
-        mMapView.addLayer(mRouteLayer);
-        // Add the hidden segments layer (for highlighting route segments)
-        mHiddenSegmentsLayer = new GraphicsLayer();
-        mMapView.addLayer(mHiddenSegmentsLayer);
-
-        // Make the mSegmentHider symbol "invisible"
-        mSegmentHider.setAlpha(1);
-    }
-
-    private void setupViewEvents()
-    {
+    private void setupViewEvents() {
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mImgCancel = (ImageView) findViewById(R.id.iv_cancel);
         mImgCurrLocation = (ImageView) findViewById(R.id.iv_myLocation);
@@ -213,18 +185,63 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
                 handleCurrLocationClick(v);
             }
         });
-
     }
 
-    private void LoadRouteData() {
+    private void setupMapView() {
+        // Retrieve the mMapView and initial extent from XML layout
+        mMapView = (MapView) findViewById(R.id.map);
+
+        // Add tiled layer to MapView
+        mTileLayer = new ArcGISTiledMapServiceLayer(TILE_LAYER_URL);
+        mMapView.addLayer(mTileLayer);
+
+        // Add the stops graphic layer
+        mStopsLayer = new GraphicsLayer();
+        mMapView.addLayer(mStopsLayer);
+
+        // Add the route graphic layer (shows the full route)
+        mRouteLayer = new GraphicsLayer();
+        mMapView.addLayer(mRouteLayer);
+
+        // Add the hidden segments layer (for highlighting route segments)
+        mHiddenSegmentsLayer = new GraphicsLayer();
+        mMapView.addLayer(mHiddenSegmentsLayer);
+
+        // Make the mSegmentHider symbol "invisible"
+        mSegmentHider.setAlpha(1);
+    }
+
+    private void initializeLocation() {
+        try {
+
+            // Get our current location, position and zoom
+            LocationServices.getLocationManager(this);
+            mapLocation = new Point(LocationServices.getLocation().getLongitude(), LocationServices.getLocation().getLatitude());
+            Point p = (Point) GeometryEngine.project(mapLocation, mEgsSpatialReference, mWmSpatialReference);
+            mMapView.zoomToResolution(p, 20.0);
+
+            // All this ESRI LocationDisplayManager does now (since I now use android location) is give me the blinking circle for curr location
+            LocationDisplayManager ldm = MainActivity.mMapView.getLocationDisplayManager();
+//          this was already commented out: ldm.setLocationListener(this);
+            ldm.start();
+            //Don't auto-pan to center our position
+            ldm.setAutoPanMode(LocationDisplayManager.AutoPanMode.NAVIGATION);
+        }
+        catch(Exception e)
+        {
+            Toast.makeText(getApplicationContext(), e.getMessage(),
+                    Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    private void loadRouteData() {
         // Retrieve and parse data
-        // Current data source (XMLs): \\bldg-app-pri.MDHUN.us.ups.com\UPSData\PFS\PASSYSTEM\PASDataExport\2016_02_05
         RouteParser routeParser = new XMLRouteParser(MainActivity.this);
         mOdoRoute = routeParser.parseRoute();
         // Create working copy of ODO stop list (editable by user)
-        mAllStops = new ArrayList<>();
-        for(Stp stp : mOdoRoute.getStps()) {
-            mAllStops.add(stp);
+        mUnCompletedStops = new ArrayList<>();
+        for(NavStop stop : mOdoRoute.getAllStopList()) {
+            mUnCompletedStops.add(stop);
         }
     }
 
@@ -233,49 +250,32 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
         // clear graphics
         clearAllGraphics();
 
-        // set upcoming stops
-        mUpcomingStops = new ArrayList<>();
-        for(int i = 0; i < mUpComingStopCount; i++) {
-            if(mAllStopsIndex + i < mAllStops.size()) {
-                mUpcomingStops.add(i, mAllStops.get(mAllStopsIndex + i));
-            }
+        // create threads for running route tasks
+        mThreads = new Thread[mNumStopsToRoute + 1];
+
+        // create array to hold route results
+        mRouteResults = new RouteResult[mNumStopsToRoute + 1];
+
+
+        // create and populate a collection to hold points to be routed
+        final ArrayList<Point> routeStops = new ArrayList<>();
+        routeStops.add(mapLocation);
+        for (int i = 0; i < mNumStopsToRoute; i++) {
+            routeStops.add(new Point(mUnCompletedStops.get(i).getNAPLong(), mUnCompletedStops.get(i).getNAPLat()));
         }
 
-        // set RouteTask mThreads and results
-        mThreads = new Thread[mUpcomingStops.size() + 1];
-        mRouteResults = new RouteResult[mUpcomingStops.size() + 1];
-
-        // set point references
-        ArrayList<Point> allPoints = new ArrayList<>();
-        Point p1;
-        Point p2;
-
-        // next stop
-        // p1 is current location
-        ArrayList<Point> nextPoints = new ArrayList<>();
-        p1 = mLocation;
-        nextPoints.add(p1);
-        allPoints.add(p1);
-        p2 = new Point(mUpcomingStops.get(0).getNAPLong(), mUpcomingStops.get(0).getNAPLat());
-        nextPoints.add(p2);
-        allPoints.add(p2);
-        updateRouteResult(0, nextPoints);
-
-        // on-deck and following stops
-        int upcomingStopCounter = 1;
-        while(upcomingStopCounter < mUpcomingStops.size()) {
-            ArrayList<Point> followingPoints = new ArrayList<>();
-            p1 = p2;
-            followingPoints.add(p1);
-            p2 = new Point(mUpcomingStops.get(upcomingStopCounter).getNAPLong(), mUpcomingStops.get(upcomingStopCounter).getNAPLat());
-            followingPoints.add(p2);
-            allPoints.add(p2);
-            updateRouteResult(upcomingStopCounter, followingPoints);
-            upcomingStopCounter++;
+        // route source to destination for each point in the collection
+        stopIndex = 0;
+        while (stopIndex < mNumStopsToRoute) {
+            updateRouteResult(stopIndex, new ArrayList<Point>() {{
+                add(routeStops.get(stopIndex));
+                add(routeStops.get(stopIndex + 1));
+            }});
+            stopIndex++;
         }
 
         // all upcoming stops (for mMapView zoom)
-        updateRouteResult(mUpcomingStops.size(), allPoints);
+        updateRouteResult(mNumStopsToRoute, routeStops);
 
         // wait for mThreads to complete
         try {
@@ -300,12 +300,53 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
 
     private void handleCurrLocationClick(View v)
     {
-        Point p = (Point) GeometryEngine.project(mLocation, mEgsSpatialReference, mWmSpatialReference);
-        mMapView.zoomToResolution(p, 20.0);
+        try {
+            Point p = (Point) GeometryEngine.project(mapLocation, mEgsSpatialReference, mWmSpatialReference);
+            mMapView.zoomToResolution(p, 20.0);
+        }
+        catch( Exception e)
+        {
+            Toast.makeText(getApplicationContext(), e.getMessage(),
+                    Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    private void plotDeliveryStops() {
+
+        ArrayList<SimpleMarkerSymbol> stopSymbols = new ArrayList<>();
+        stopSymbols.add(NEXT_STOP_SYMBOL);
+        stopSymbols.add(ONDECK_STOP_SYMBOL);
+        stopSymbols.add(FOLLOWING_STOP_SYMBOL);
+
+        // create and populate a collection to hold points to be plotted
+        final ArrayList<Point> stopsToDisplay = new ArrayList<>();
+        for (int i = 0; i < mNumStopsToShow; i++) {
+            stopsToDisplay.add(new Point(mUnCompletedStops.get(i).getNAPLong(), mUnCompletedStops.get(i).getNAPLat()));
+        }
+
+        SimpleMarkerSymbol symbolToShow;
+        for (int i = 0; i < stopsToDisplay.size(); i++) {
+
+            if ( i < mNumStopsToRoute) {
+                symbolToShow = stopSymbols.get(i);
+            }
+            else {
+                symbolToShow = DELIVERY_STOP_SYMBOL;
+            }
+
+            addPointToGraphicsLayer(stopsToDisplay.get(i), symbolToShow, mStopsLayer);
+        }
+    }
+
+    public void addPointToGraphicsLayer(Point point, Symbol stopSymbol, GraphicsLayer graphicsLayer) {
+
+        Point p = (Point) GeometryEngine.project(point, mEgsSpatialReference, mWmSpatialReference);
+        Graphic plotPoint = new Graphic(p, stopSymbol);
+        graphicsLayer.addGraphic(plotPoint);
     }
 
     private void updateRouteResult(final int leg, final List<Point> points) {
-         mThreads[leg] = new Thread() {
+        mThreads[leg] = new Thread() {
             public void run() {
                 try {
                     RouteTask routeTask = RouteTask.createOnlineRouteTask(ROUTE_TASK_URL, null);
@@ -368,13 +409,11 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
         mDrawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED);
 
         // Add all the route segments with their relevant information to the
-        // hiddenSegmentsLayer, and add the direction information to the list
-        // of directions
+        // hiddenSegmentsLayer, and add the direction information to the list of directions
 
         mCurrDirections = new ArrayList<>();
-
-        Route nextStopRoute = mRouteResults[0].getRoutes().get(0);
-        for (RouteDirection rd : nextStopRoute.getRoutingDirections()) {
+        mCurrRoute = mRouteResults[0].getRoutes().get(0);
+        for (RouteDirection rd : mCurrRoute.getRoutingDirections()) {
             HashMap<String, Object> attribs = new HashMap<>();
             attribs.put("text", rd.getText());
             attribs.put("time", rd.getMinutes());
@@ -387,8 +426,10 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
         mSelectedSegmentID = -1;
 
         // Get the next stop route summary and set it as our current label
-        mRouteSummary = String.format("%s%n%.1f minutes (%.1f miles)", nextStopRoute.getRouteName(), nextStopRoute.getTotalMinutes(), nextStopRoute.getTotalMiles());
+        mRouteSummary = String.format("%s%n%.1f minutes (%.1f miles)", mCurrRoute.getRouteName(), mCurrRoute.getTotalMinutes(), mCurrRoute.getTotalMiles());
         mTxtViewDirectionsLabel.setText(mRouteSummary);
+        //mTxtViewDirectionsLabel.setText("816 Drohomer Pl");
+
 
         // Replacing the first and last direction segments
         mCurrDirections.remove(0);
@@ -397,40 +438,33 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
         mCurrDirections.remove(mCurrDirections.size() - 1);
         mCurrDirections.add("Destination");
 
-        // Add the full route graphics, start and destination graphic to the
-        // mRouteLayer
-
         // update path to next stop
-        updateRouteLayer(nextStopRoute, NEXT_ROUTE_SYMBOL, NEXT_STOP_SYMBOL);
+        updateRouteLayer(mCurrRoute, NEXT_ROUTE_SYMBOL);
 
         // update path to ondeck stop
         if(mRouteResults.length > 1) {
             Route ondeckStopRoute = mRouteResults[1].getRoutes().get(0);
-            updateRouteLayer(ondeckStopRoute, ONDECK_ROUTE_SYMBOL, ONDECK_STOP_SYMBOL);
+            updateRouteLayer(ondeckStopRoute, ONDECK_ROUTE_SYMBOL);
         }
 
         // update path to following stops
         if(mRouteResults.length > 2) {
             for (int i = 2; i < mRouteResults.length - 1; i++) {
                 Route followingStopRoute = mRouteResults[i].getRoutes().get(0);
-                updateRouteLayer(followingStopRoute, FOLLOWING_ROUTE_SYMBOL, FOLLOWING_STOP_SYMBOL);
+                updateRouteLayer(followingStopRoute, FOLLOWING_ROUTE_SYMBOL);
             }
         }
 
         // update mMapView extent for all upcoming stops
-        Route stopShowCountRoute = mRouteResults[mUpComingStopCount].getRoutes().get(0);
+        Route stopShowCountRoute = mRouteResults[mNumStopsToRoute].getRoutes().get(0);
         Envelope extent = stopShowCountRoute.getEnvelope();
         extent.inflate(750, 750);
         mMapView.setExtent(extent, 0, true);
     }
 
     // helper method for updating route layer with a given route (next, on-deck, following)
-    private void updateRouteLayer(Route route, Symbol routeSymbol, Symbol stopSymbol) {
-        Graphic routeGraphic = new Graphic(route.getRouteGraphic().getGeometry(), routeSymbol);
-        Polyline polyline = ((Polyline) route.getRouteGraphic().getGeometry());
-        Graphic stopGraphic = new Graphic(polyline.getPoint(polyline.getPointCount() - 1), stopSymbol);
-
-        mRouteLayer.addGraphics(new Graphic[]{routeGraphic, stopGraphic});
+    private void updateRouteLayer(Route route, Symbol routeSymbol) {
+        mRouteLayer.addGraphic(new Graphic(route.getRouteGraphic().getGeometry(), routeSymbol));
     }
 
     private void setProxyCredentials() {
@@ -461,45 +495,55 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
 
     @Override
     public void onSegmentSelected(String segment) {
-
-    }
-
-    private class MyLocationListener implements LocationListener {
-
-        public MyLocationListener() {
-            super();
-        }
-
-        // If location changes, update our current location. If being found for the first time, zoom to our current position with a resolution of 20
-
-        public void onLocationChanged(Location loc) {
-            if (loc == null)
-                return;
-            boolean zoomToMe = (mLocation == null) ? true : false;
-            mLocation = new Point(loc.getLongitude(), loc.getLatitude());
-            if (zoomToMe) {
-                Point p = (Point) GeometryEngine.project(mLocation, mEgsSpatialReference, mWmSpatialReference);
-                mMapView.zoomToResolution(p, 20.0);
+        if (segment == null)
+            return;
+        // Look for the graphic that corresponds to this direction
+        for (int index : mHiddenSegmentsLayer.getGraphicIDs()) {
+            Graphic g = mHiddenSegmentsLayer.getGraphic(index);
+            if (segment.contains((String) g.getAttributeValue("text"))) {
+                // When found, hide the currently selected, show the new
+                // selection
+                mHiddenSegmentsLayer.updateGraphic(mSelectedSegmentID, mSegmentHider);
+                mHiddenSegmentsLayer.updateGraphic(index, mSegmentHider);
+                mSelectedSegmentID = index;
+                // Update label with information for that direction
+                mTxtViewDirectionsLabel.setText(segment);
+                // Zoom to the extent of that segment
+                mMapView.setExtent(mHiddenSegmentsLayer.getGraphic(mSelectedSegmentID)
+                        .getGeometry(), 50);
+                break;
             }
         }
+    }
 
-        public void onProviderDisabled(String provider) {
-            Toast.makeText(getApplicationContext(), "GPS Disabled",
-                    Toast.LENGTH_SHORT).show();
-            buildAlertMessageNoGps();
+    @Override
+    public void onLocationServicesLocationChange(Location location) {
+        boolean zoomToMe = (mapLocation == null);
+        mapLocation = new Point(location.getLongitude(), location.getLatitude());
+        //addPointToGraphicsLayer(mapLocation, CURRENT_LOCATION_SYMBOL, mStopsLayer);
+        if (zoomToMe) {
+            Point p = (Point) GeometryEngine.project(mapLocation, mEgsSpatialReference, mWmSpatialReference);
+            mMapView.zoomToResolution(p, 20.0);
         }
+    }
 
-        public void onProviderEnabled(String provider) {
-            Toast.makeText(getApplicationContext(), "GPS Enabled",
-                    Toast.LENGTH_SHORT).show();
-        }
-
-        public void onStatusChanged(String provider, int status, Bundle extras) {
-        }
+    @Override
+    public void onLocationServicesStatusChanged(String provider, int status, Bundle extras) {
 
     }
 
-    private void buildAlertMessageNoGps() {
+    @Override
+    public void onLocationServicesProviderEnabled(String provider) {
+        Toast.makeText(getApplicationContext(), "GPS Enabled", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onLocationServicesProviderDisabled(String provider) {
+        Toast.makeText(getApplicationContext(), "GPS Disabled", Toast.LENGTH_SHORT).show();
+        buildAlertMessageNoGps();
+    }
+
+    public void buildAlertMessageNoGps() {
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage("Please enable your GPS before proceeding")
                 .setCancelable(false)
