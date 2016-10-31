@@ -71,6 +71,7 @@ public class LocationServices implements LocationListener {
                 mLocation = mLocationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
             }
 
+            // added this null check because if we get mLocation above we don't want it to be overwritten here with null if no network found
             if (mLocation==null && mLocationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER))
             {
                 mLocationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, MIN_TIME_BW_UPDATES, MIN_DISTANCE_CHANGE_FOR_UPDATES, this);

@@ -42,10 +42,10 @@ import android.widget.TextView;
  * Custom Adapter for the list view
  *
  */
-public class MyAdapter extends ArrayAdapter<String> {
+class MyAdapter extends ArrayAdapter<String> {
 
-    Context context;
-    ArrayList<String> directions;
+    private Context context;
+    private ArrayList<String> directions;
 
     MyAdapter(Context c, ArrayList<String> currDirections) {
         super(c,  R.layout.list_item, R.id.segment, currDirections);

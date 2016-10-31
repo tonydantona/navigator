@@ -27,6 +27,7 @@ import android.widget.Toast;
 public class DirectionsListFragment extends Fragment implements ListView.OnItemClickListener {
 
     private OnDirectionsDrawerSelectedListener mListener;
+    // need to remove static
     public static ListView mDrawerList;
 
     public DirectionsListFragment() {
