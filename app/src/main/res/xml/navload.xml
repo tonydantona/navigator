@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<NavData>
+    <NavLoad>
+        <LoadID>652200</LoadID>
+        <LoadName>JOEY</LoadName>
+    </NavLoad>
+    <NavLoad>
+        <LoadID>652203</LoadID>
+        <LoadName>RESI</LoadName>
+    </NavLoad>
+    <NavLoad>
+        <LoadID>652206</LoadID>
+        <LoadName>TESS</LoadName>
+    </NavLoad>
+</NavData>

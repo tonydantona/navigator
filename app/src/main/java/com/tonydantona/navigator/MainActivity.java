@@ -1,6 +1,5 @@
 package com.tonydantona.navigator;
 
-import android.Manifest;
 import android.app.AlertDialog;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -19,7 +18,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.esri.android.map.GraphicsLayer;
-import com.esri.android.map.LocationDisplayManager;
 import com.esri.android.map.MapView;
 import com.esri.android.map.ags.ArcGISTiledMapServiceLayer;
 import com.esri.core.geometry.Envelope;
@@ -41,11 +39,15 @@ import com.esri.core.tasks.na.RouteParameters;
 import com.esri.core.tasks.na.RouteResult;
 import com.esri.core.tasks.na.RouteTask;
 import com.esri.core.tasks.na.StopGraphic;
+import com.tonydantona.navigator.datatypes.Address;
 import com.tonydantona.navigator.datatypes.NavRoute;
 import com.tonydantona.navigator.datatypes.NavStop;
 import com.tonydantona.navigator.xmlparser.XMLRouteParser;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 
@@ -60,6 +62,7 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
     GraphicsLayer mRouteLayer;
     GraphicsLayer mHiddenSegmentsLayer;
     GraphicsLayer mStopsLayer;
+    GraphicsLayer mCurrentLocationLayer;
 
     // UPS route data references (route as imported from data source)
     NavRoute mOdoRoute;
@@ -98,6 +101,7 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
     ImageView mImgCurrLocation;
     ImageView mImgGetDirections;
     ImageView mImgCancel;
+    ImageView mImgCompleteStop;
 
     // Index of the currently selected route segment (-1 = no selection)
     int mSelectedSegmentID = -1;
@@ -105,9 +109,11 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
     // Label showing the current direction, time, and length
     TextView mTxtViewDirectionsLabel;
 
+    // Label showing the destination address
+    TextView mTxtViewDestinationLabel;
+
     // RouteTask solving references
     Thread[] mThreads = null;
-    String mRouteSummary = null;
     static final String ROUTE_TASK_URL = "http://sampleserver3.arcgisonline.com/ArcGIS/rest/services/Network/USA/NAServer/Route";
     RouteResult[] mRouteResults = null;
     Route mCurrRoute = null;
@@ -122,7 +128,7 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
     };
 
     // GPS location
-    public Point mapLocation = null;
+    private Point mCurrentLocation = null;
 
     // Spatial references used for projecting points
     public static final SpatialReference mWmSpatialReference = SpatialReference.create(102100);
@@ -149,7 +155,7 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
         Thread.setDefaultUncaughtExceptionHandler(new ExceptionHandler());
 
         // Set credentials for UPS network proxy
-        setProxyCredentials();
+//        setProxyCredentials();
 
         // Retrieve main activity view from XML layout
         setContentView(R.layout.activity_main);
@@ -169,6 +175,8 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
         mImgCurrLocation = (ImageView) findViewById(R.id.iv_myLocation);
         mImgGetDirections = (ImageView) findViewById(R.id.iv_getDirections);
         mTxtViewDirectionsLabel = (TextView) findViewById(R.id.directionsLabel);
+        mTxtViewDestinationLabel = (TextView) findViewById(R.id.destinationLabel);
+        mImgCompleteStop = (ImageView) findViewById(R.id.iv_completeStop);
 
         mDrawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
 
@@ -185,6 +193,13 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
                 handleCurrLocationClick(v);
             }
         });
+
+        mImgCompleteStop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+              handleCompleteStopClick(v);
+            }
+        });
     }
 
     private void setupMapView() {
@@ -198,6 +213,10 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
         // Add the stops graphic layer
         mStopsLayer = new GraphicsLayer();
         mMapView.addLayer(mStopsLayer);
+
+        // Add the current Location layer
+        mCurrentLocationLayer = new GraphicsLayer();
+        mMapView.addLayer(mCurrentLocationLayer);
 
         // Add the route graphic layer (shows the full route)
         mRouteLayer = new GraphicsLayer();
@@ -216,16 +235,20 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
 
             // Get our current location, position and zoom
             LocationServices.getLocationManager(this);
-            mapLocation = new Point(LocationServices.getLocation().getLongitude(), LocationServices.getLocation().getLatitude());
-            Point p = (Point) GeometryEngine.project(mapLocation, mEgsSpatialReference, mWmSpatialReference);
+            mCurrentLocation = new Point(LocationServices.getLocation().getLongitude(), LocationServices.getLocation().getLatitude());
+            addPointToGraphicsLayer(mCurrentLocation, CURRENT_LOCATION_SYMBOL, mCurrentLocationLayer);
+
+            Point p = (Point) GeometryEngine.project(mCurrentLocation, mEgsSpatialReference, mWmSpatialReference);
             mMapView.zoomToResolution(p, 20.0);
 
+
+
             // All this ESRI LocationDisplayManager does now (since I now use android location) is give me the blinking circle for curr location
-            LocationDisplayManager ldm = MainActivity.mMapView.getLocationDisplayManager();
+//            LocationDisplayManager ldm = MainActivity.mMapView.getLocationDisplayManager();
 //          this was already commented out: ldm.setLocationListener(this);
-            ldm.start();
+//            ldm.start();
             //Don't auto-pan to center our position
-            ldm.setAutoPanMode(LocationDisplayManager.AutoPanMode.NAVIGATION);
+//            ldm.setAutoPanMode(LocationDisplayManager.AutoPanMode.NAVIGATION);
         }
         catch(Exception e)
         {
@@ -245,8 +268,7 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
         }
     }
 
-    private void handleGetDirectionsClick(View v)
-    {
+    private void getDirections() {
         // clear graphics
         clearAllGraphics();
 
@@ -259,7 +281,7 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
 
         // create and populate a collection to hold points to be routed
         final ArrayList<Point> routeStops = new ArrayList<>();
-        routeStops.add(mapLocation);
+        routeStops.add(mCurrentLocation);
         for (int i = 0; i < mNumStopsToRoute; i++) {
             routeStops.add(new Point(mUnCompletedStops.get(i).getNAPLong(), mUnCompletedStops.get(i).getNAPLat()));
         }
@@ -298,16 +320,30 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
         mHandler.post(mUpdateResults);
     }
 
+    private void handleGetDirectionsClick(View v) {
+       getDirections();
+    }
+
     private void handleCurrLocationClick(View v)
     {
         try {
-            Point p = (Point) GeometryEngine.project(mapLocation, mEgsSpatialReference, mWmSpatialReference);
+            Point p = (Point) GeometryEngine.project(mCurrentLocation, mEgsSpatialReference, mWmSpatialReference);
             mMapView.zoomToResolution(p, 20.0);
         }
         catch( Exception e)
         {
             Toast.makeText(getApplicationContext(), e.getMessage(),
                     Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    private void handleCompleteStopClick(View v) {
+        if (!mUnCompletedStops.isEmpty()) {
+            mUnCompletedStops.remove(0);
+            clearAllGraphics();
+            removePlottedStopGraphic();
+            plotDeliveryStops();
+            getDirections();
         }
     }
 
@@ -335,6 +371,16 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
             }
 
             addPointToGraphicsLayer(stopsToDisplay.get(i), symbolToShow, mStopsLayer);
+
+            String address = "";
+            // only show the first uncompleted stop as destination
+            if( i == 0) {
+                NavStop navStop = mUnCompletedStops.get(i);
+                Address addressType = navStop.getAddress();
+                address = addressType.getStNumber() + " " + addressType.getStName() + " " + addressType.getStType() + " " + addressType.getCity();
+            }
+
+            mTxtViewDestinationLabel.setText(address);
         }
     }
 
@@ -425,10 +471,20 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
         // Reset the selected segment
         mSelectedSegmentID = -1;
 
-        // Get the next stop route summary and set it as our current label
-        mRouteSummary = String.format("%s%n%.1f minutes (%.1f miles)", mCurrRoute.getRouteName(), mCurrRoute.getTotalMinutes(), mCurrRoute.getTotalMiles());
-        mTxtViewDirectionsLabel.setText(mRouteSummary);
-        //mTxtViewDirectionsLabel.setText("816 Drohomer Pl");
+        Calendar now = Calendar.getInstance();
+
+        Calendar eta = (Calendar) now.clone();
+        // add to current time to get eta
+        eta.add(Calendar.MINUTE, (int) mCurrRoute.getTotalMinutes());
+
+        DateFormat df = new SimpleDateFormat("h:mm a");
+        String etaTime = df.format(eta.getTime());
+
+        //String distToStop = String.format("%.1f miles", mCurrRoute.getTotalMiles());
+
+
+        mTxtViewDirectionsLabel.setText(String.format("%s%s%n%s%s","ETA: ", etaTime, "Dist To Stop: ", String.format("%.1f miles", mCurrRoute.getTotalMiles())));
+
 
 
         // Replacing the first and last direction segments
@@ -493,6 +549,14 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
 
     }
 
+    public void removeCurrentLocationGraphic() {
+        mCurrentLocationLayer.removeAll();
+    }
+
+    public void removePlottedStopGraphic() {
+        mStopsLayer.removeAll();
+    }
+
     @Override
     public void onSegmentSelected(String segment) {
         if (segment == null)
@@ -518,11 +582,12 @@ public class MainActivity extends AppCompatActivity implements DirectionsListFra
 
     @Override
     public void onLocationServicesLocationChange(Location location) {
-        boolean zoomToMe = (mapLocation == null);
-        mapLocation = new Point(location.getLongitude(), location.getLatitude());
-        //addPointToGraphicsLayer(mapLocation, CURRENT_LOCATION_SYMBOL, mStopsLayer);
+        boolean zoomToMe = (mCurrentLocation == null);
+        removeCurrentLocationGraphic();
+        mCurrentLocation = new Point(location.getLongitude(), location.getLatitude());
+        addPointToGraphicsLayer(mCurrentLocation, CURRENT_LOCATION_SYMBOL, mCurrentLocationLayer);
         if (zoomToMe) {
-            Point p = (Point) GeometryEngine.project(mapLocation, mEgsSpatialReference, mWmSpatialReference);
+            Point p = (Point) GeometryEngine.project(mCurrentLocation, mEgsSpatialReference, mWmSpatialReference);
             mMapView.zoomToResolution(p, 20.0);
         }
     }

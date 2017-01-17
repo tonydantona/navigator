@@ -13,12 +13,14 @@
             android:layout_weight="1"
             android:background="@android:color/white"
             android:orientation="horizontal">
+
             <ImageView
                 android:id="@+id/iv_completeStop"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:src="@drawable/btn_check_on" />
+
             <TextView
                 android:id="@+id/destinationLabel"
                 android:layout_width="0dp"
@@ -33,147 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="7" >
-
-            <!-- Left Vertical Info Bar-->
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="80dp"
-                android:layout_height="match_parent"
-                android:weightSum="1">
-
-                <View style="@style/Divider"
-                    android:background="#ed0f0f" />
-
-                <!-- ODO Trace Label -->
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="52dp"
-                    android:inputType="textMultiLine"
-                    android:ems="10"
-                    android:id="@+id/et_odo_trace_label"
-                    android:text="@string/lbl_odo_trace"
-                    android:background="#050505"
-                    android:textColor="#fbf6f6"
-                    android:gravity="center_horizontal"
-                    android:cursorVisible="false"
-                    android:enabled="true" />
-
-                <!-- ODO Trace Value -->
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="25dp"
-                    android:text="72.5"
-                    android:id="@+id/tv_odo_trace"
-                    android:layout_weight="0.11"
-                    android:gravity="top|center"
-                    android:textColor="#fbf6f6"
-                    android:background="#090909"
-                    android:textSize="@dimen/abc_text_size_medium_material" />
-
-                <View style="@style/Divider"
-                    android:background="#ed0f0f" />
-
-                <!-- ETA Label -->
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="52dp"
-                    android:text="@string/eta_label"
-                    android:id="@+id/tv_eta_label"
-                    android:layout_weight="0.13"
-                    android:gravity="center"
-                    android:textColor="#fbf6f6"
-                    android:background="#090909"
-                    android:textSize="@dimen/abc_text_size_medium_material" />
-
-                <View style="@style/Divider"
-                    android:background="#0fed1a" />
-
-                <!-- ETA Values -->
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="52dp"
-                    android:inputType="textMultiLine"
-                    android:ems="10"
-                    android:id="@+id/et_eta_values"
-                    android:text="@string/eta_values"
-                    android:background="#050505"
-                    android:textColor="#fbf6f6"
-                    android:gravity="center_horizontal"
-                    android:cursorVisible="false"
-                    android:enabled="true"
-                    android:layout_weight="0.03" />
-
-                <View style="@style/Divider"
-                    android:background="#0fed1a" />
-
-                <!-- Total Miles Label -->
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="52dp"
-                    android:inputType="textMultiLine"
-                    android:ems="10"
-                    android:id="@+id/et_total_miles_label"
-                    android:text="@string/lbl_total_miles"
-                    android:background="#050505"
-                    android:textColor="#fbf6f6"
-                    android:gravity="center_horizontal"
-                    android:cursorVisible="false"
-                    android:enabled="true" />
-
-                <View style="@style/Divider"
-                    android:background="#0fed1a" />
-
-                <!-- Total Miles Values -->
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="52dp"
-                    android:inputType="textMultiLine"
-                    android:ems="10"
-                    android:id="@+id/et_total_miles_values"
-                    android:text="@string/total_miles_values"
-                    android:background="#050505"
-                    android:textColor="#fbf6f6"
-                    android:gravity="center_horizontal"
-                    android:cursorVisible="false"
-                    android:enabled="true"
-                    android:layout_weight="0.06" />
-
-                <View style="@style/Divider"
-                    android:background="#0fed1a" />
-
-                <!-- Direction Image-->
-                <ImageView
-                    android:id="@+id/iv_nav_symbol"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/nav_left" />
-
-                <!--  Miles Before Turn -->
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="5dp"
-                    android:text="@string/miles_to_turn"
-                    android:id="@+id/tv_miles_before_turn"
-                    android:layout_weight="0.34"
-                    android:gravity="center"
-                    android:textColor="#fbf6f6"
-                    android:background="#090909"
-                    android:textSize="@dimen/abc_text_size_medium_material" />
-
-                <View style="@style/Divider"
-                    android:background="#0fed1a" />
-
-                <!-- Speed Limit Image-->
-                <ImageView
-                    android:id="@+id/iv_speed_limit"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:src="@drawable/speed_limit_25"
-                    android:layout_weight="0.07"
-                    android:baselineAlignBottom="false"
-                    android:layout_gravity="bottom" />
-
-            </LinearLayout>
+            
             <com.esri.android.map.MapView
                 android:id="@+id/map"
                 android:layout_width="0dp"
@@ -203,12 +65,7 @@
                 android:padding="8dp"
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
-            <ImageView
-                android:id="@+id/iv_plotStops"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:src="@drawable/ic_coins_l_bw_resize" />
+
             <ImageView
                 android:id="@+id/iv_getDirections"
                 android:layout_width="0dp"

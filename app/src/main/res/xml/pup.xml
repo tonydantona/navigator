@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDIRPup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <DIRPup>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>122</StopID>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>50003</RDOOrder>
+        <PASPUEvtPlanEntrySysID>882204</PASPUEvtPlanEntrySysID>
+        <DPSPUPEvtID>7135</DPSPUPEvtID>
+        <DPSLastModifiedTimeStamp>2/5/2016 2:46:02 AM</DPSLastModifiedTimeStamp>
+        <SODIndicator>false</SODIndicator>
+        <ScheduledPickupTime>17:00</ScheduledPickupTime>
+        <ESST>16:30</ESST>
+        <LSST>17:30</LSST>
+        <PickupPoint>GARAGE</PickupPoint>
+        <PieceCount>0</PieceCount>
+        <EffectiveStartDate>1/1/2000</EffectiveStartDate>
+        <PupEvtDayOfWeek>0111110</PupEvtDayOfWeek>
+        <EventType>1</EventType>
+        <OccurrenceProbability>0</OccurrenceProbability>
+        <IncInOptimization>false</IncInOptimization>
+        <DPSCPADTimeWindowInd>false</DPSCPADTimeWindowInd>
+        <AccountNumber>60Y1A2</AccountNumber>
+        <AccountName>SPECIALTY RESCUE INC.</AccountName>
+        <AccountStatus>1</AccountStatus>
+        <DPGIndicator>false</DPGIndicator>
+        <AccountDayOfWeek>0111110</AccountDayOfWeek>
+        <PickupType>1</PickupType>
+        <LetterBoxType>0</LetterBoxType>
+        <LetterBoxId />
+        <NotifyByTime>16:00</NotifyByTime>
+        <EarliestTime>14:30</EarliestTime>
+        <DesiredTime>17:00</DesiredTime>
+        <LatestTime>17:00</LatestTime>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+        <PUEventDeletedInd>false</PUEventDeletedInd>
+    </DIRPup>
+    <DIRPup>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>123</StopID>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>50002</RDOOrder>
+        <PASPUEvtPlanEntrySysID>882382</PASPUEvtPlanEntrySysID>
+        <DPSPUPEvtID>8815</DPSPUPEvtID>
+        <DPSLastModifiedTimeStamp>2/5/2016 2:46:02 AM</DPSLastModifiedTimeStamp>
+        <SODIndicator>false</SODIndicator>
+        <ScheduledPickupTime>16:00</ScheduledPickupTime>
+        <ESST>16:00</ESST>
+        <LSST>17:00</LSST>
+        <PickupPoint>SHIPPING</PickupPoint>
+        <PieceCount>0</PieceCount>
+        <EffectiveStartDate>1/1/2000</EffectiveStartDate>
+        <PupEvtDayOfWeek>0111110</PupEvtDayOfWeek>
+        <EventType>1</EventType>
+        <OccurrenceProbability>0</OccurrenceProbability>
+        <IncInOptimization>false</IncInOptimization>
+        <DPSCPADTimeWindowInd>false</DPSCPADTimeWindowInd>
+        <AccountNumber>R33703</AccountNumber>
+        <AccountName>JEPEDO'S</AccountName>
+        <AccountStatus>1</AccountStatus>
+        <DPGIndicator>false</DPGIndicator>
+        <AccountDayOfWeek>1111110</AccountDayOfWeek>
+        <PickupType>1</PickupType>
+        <LetterBoxType>0</LetterBoxType>
+        <LetterBoxId />
+        <NotifyByTime>15:00</NotifyByTime>
+        <EarliestTime>16:00</EarliestTime>
+        <DesiredTime>16:00</DesiredTime>
+        <LatestTime>17:00</LatestTime>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+        <PUEventDeletedInd>false</PUEventDeletedInd>
+    </DIRPup>
+</ArrayOfDIRPup>

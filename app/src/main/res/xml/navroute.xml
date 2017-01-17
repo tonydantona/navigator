@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<NavData>
+    <NavRoute>
+        <RouteID>622545</RouteID>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <SLIC>2114</SLIC>
+        <RouteName>21E</RouteName>
+        <DeliveryDate>2016-04-12</DeliveryDate>
+        <SchStartTime>700</SchStartTime>
+        <ODOMiles>68.132392883300781</ODOMiles>
+        <ODOTime>1065</ODOTime>
+        <BreakESST>1150</BreakESST>
+        <BreakLSST>1550</BreakLSST>
+        <BreakDuration>117</BreakDuration>
+        <BreakStartTime>1162</BreakStartTime>
+    </NavRoute>
+</NavData>

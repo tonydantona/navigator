@@ -1,0 +1,2793 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDIRPkg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>1</StopID>
+        <TrackingNumber>1Z066V300310496455</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>327</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>2</StopID>
+        <TrackingNumber>1Z098AW11307763412</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>327</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>3</StopID>
+        <TrackingNumber>1Z1EF9931312276245</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>328</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>4</StopID>
+        <TrackingNumber>1Z22E4421377945762</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>328</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>5</StopID>
+        <TrackingNumber>1Z7522160300923173</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>267</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>5</StopID>
+        <TrackingNumber>1ZV2X5980350654879</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>267</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>6</StopID>
+        <TrackingNumber>1ZW470F80338227608</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>166</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>7</StopID>
+        <TrackingNumber>1ZX902560357870643</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>283</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>7</StopID>
+        <TrackingNumber>1ZX902560359830834</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>283</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>8</StopID>
+        <TrackingNumber>1ZE19253YW00354669</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>283</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>8</StopID>
+        <TrackingNumber>1ZW510V40346293385</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>283</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>9</StopID>
+        <TrackingNumber>1Z53588W0343553213</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>283</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>10</StopID>
+        <TrackingNumber>1Z2348880358477211</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>198</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>10</StopID>
+        <TrackingNumber>1ZY248F60397903297</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>198</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>11</StopID>
+        <TrackingNumber>1Z0E037X0304234910</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>210</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>12</StopID>
+        <TrackingNumber>1Z63V7760398805964</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>219</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>12</StopID>
+        <TrackingNumber>1Z63V7760399636574</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>219</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>13</StopID>
+        <TrackingNumber>1Z2855710341814388</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>217</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>14</StopID>
+        <TrackingNumber>1Z0R379V0372064132</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>23</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>15</StopID>
+        <TrackingNumber>1Z2717050372205738</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>27</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>15</StopID>
+        <TrackingNumber>1ZR063730379782420</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>27</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>16</StopID>
+        <TrackingNumber>1Z2A548V0354990207</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>15</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>16</StopID>
+        <TrackingNumber>1ZE1260F0365233109</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>15</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>17</StopID>
+        <TrackingNumber>1Z720912YW60163411</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>206</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>17</StopID>
+        <TrackingNumber>1ZA780T10301639013</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>206</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>18</StopID>
+        <TrackingNumber>1Z788Y3A0353843246</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>231</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>19</StopID>
+        <TrackingNumber>1Z21E50A0337823857</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>149</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>20</StopID>
+        <TrackingNumber>1Z2E04820300719486</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>156</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>21</StopID>
+        <TrackingNumber>1Z0495WW0310484779</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>159</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>21</StopID>
+        <TrackingNumber>1Z0495WW0310484797</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>159</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>21</StopID>
+        <TrackingNumber>1Z8WY434YW51677618</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>159</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>22</StopID>
+        <TrackingNumber>1Z602A6X0319067080</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>303</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>23</StopID>
+        <TrackingNumber>1ZXA36220307581473</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>302</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>24</StopID>
+        <TrackingNumber>1ZY8A3980301994382</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>304</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>25</StopID>
+        <TrackingNumber>1ZE232180317876678</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>52</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>26</StopID>
+        <TrackingNumber>1Z04X15VP212164341</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>61</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>27</StopID>
+        <TrackingNumber>1ZA5674X0306830628</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>73</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>28</StopID>
+        <TrackingNumber>1Z21E20F0322694397</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>180</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>28</StopID>
+        <TrackingNumber>1Z2ER5090302095257</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>180</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>29</StopID>
+        <TrackingNumber>1Z2F5R851311317421</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>183</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>30</StopID>
+        <TrackingNumber>1ZV869F90357462116</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>183</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>31</StopID>
+        <TrackingNumber>1ZE6E4990271433916</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>181</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>32</StopID>
+        <TrackingNumber>1ZWX74860264924793</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>155</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>33</StopID>
+        <TrackingNumber>1Z688R210392845464</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>297</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>34</StopID>
+        <TrackingNumber>1Z162A0E0300026512</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>51</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>34</StopID>
+        <TrackingNumber>1Z162A0E0300026521</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>51</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>35</StopID>
+        <TrackingNumber>1Z3F13F00311638331</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>216</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>36</StopID>
+        <TrackingNumber>1ZX027W7YN30273414</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>296</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>37</StopID>
+        <TrackingNumber>1Z21E20F0322661734</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>296</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>38</StopID>
+        <TrackingNumber>1ZA83F740126576965</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>306</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>39</StopID>
+        <TrackingNumber>1Z6Y2A760367347950</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>298</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>40</StopID>
+        <TrackingNumber>1Z5353580352671369</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>298</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>41</StopID>
+        <TrackingNumber>1Z6E31340355455695</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>236</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>42</StopID>
+        <TrackingNumber>1ZW0Y5350350444895</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>79</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>43</StopID>
+        <TrackingNumber>1Z21E20F0322662555</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>82</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>44</StopID>
+        <TrackingNumber>1ZY5261V1346620242</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>256</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>45</StopID>
+        <TrackingNumber>1Z3F1E75P292055577</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>237</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>46</StopID>
+        <TrackingNumber>1ZX288000308624547</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>258</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>47</StopID>
+        <TrackingNumber>1Z1240YF0300226094</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>258</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>48</StopID>
+        <TrackingNumber>1Z1A2V030393064488</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>259</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>49</StopID>
+        <TrackingNumber>1ZE1260F0365199988</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>240</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>50</StopID>
+        <TrackingNumber>1Z2283610316424912</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>266</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>51</StopID>
+        <TrackingNumber>1Z5F033Y0346282482</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>281</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>51</StopID>
+        <TrackingNumber>1Z5F033Y0346307679</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>281</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>51</StopID>
+        <TrackingNumber>1Z5F033Y0347034300</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>281</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>51</StopID>
+        <TrackingNumber>1Z5F033Y0347312698</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>281</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>52</StopID>
+        <TrackingNumber>1Z992AE64254696428</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>314</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>53</StopID>
+        <TrackingNumber>1ZA10467YW42261869</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>72</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>53</StopID>
+        <TrackingNumber>1ZE244170365830758</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>72</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>54</StopID>
+        <TrackingNumber>1Z602A6X0319075615</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>315</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>55</StopID>
+        <TrackingNumber>1Z4803490361557015</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>315</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>56</StopID>
+        <TrackingNumber>1Z2F46860341373739</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>315</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>56</StopID>
+        <TrackingNumber>1Z2F46860342338525</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>315</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>57</StopID>
+        <TrackingNumber>1ZW216A70357137700</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>213</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>58</StopID>
+        <TrackingNumber>1Z586616YW27423883</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>2</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>58</StopID>
+        <TrackingNumber>1Z586616YW27426746</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>2</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>58</StopID>
+        <TrackingNumber>1Z587Y7E0397902341</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>2</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>58</StopID>
+        <TrackingNumber>1ZX027W7YN30261463</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>2</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>59</StopID>
+        <TrackingNumber>1Z2W61850255170902</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>249</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>60</StopID>
+        <TrackingNumber>1Z8658070350178921</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>246</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>61</StopID>
+        <TrackingNumber>1Z60719R0351817473</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>208</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>62</StopID>
+        <TrackingNumber>1Z8E37090293935202</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>208</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>63</StopID>
+        <TrackingNumber>1Z736E010376100510</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>223</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>64</StopID>
+        <TrackingNumber>1Z2Y35Y20397894988</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>148</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>65</StopID>
+        <TrackingNumber>1Z22E4421377857876</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>148</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>66</StopID>
+        <TrackingNumber>1Z2FV6760228099994</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>299</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>67</StopID>
+        <TrackingNumber>1ZA8T1970314694601</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>307</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>68</StopID>
+        <TrackingNumber>1Z21F58E0335569620</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>307</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>69</StopID>
+        <TrackingNumber>1ZA34W98NT60144974</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>308</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>70</StopID>
+        <TrackingNumber>1ZE157340397017282</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>77</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>71</StopID>
+        <TrackingNumber>1ZW899W70324966744</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>77</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>72</StopID>
+        <TrackingNumber>1ZA356X71214708614</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>233</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>73</StopID>
+        <TrackingNumber>1Z21E20F0322671741</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>87</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>74</StopID>
+        <TrackingNumber>1Z40YV870369606671</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>66</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>75</StopID>
+        <TrackingNumber>1Z066V300310477618</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>272</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>76</StopID>
+        <TrackingNumber>1Z6Y2A760367017333</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>162</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>77</StopID>
+        <TrackingNumber>1ZY8A3980301978453</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>162</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>78</StopID>
+        <TrackingNumber>1Z098AW10244733459</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>162</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>78</StopID>
+        <TrackingNumber>1Z21E50A0337819773</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>162</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>79</StopID>
+        <TrackingNumber>1Z0174640393280706</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>1</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>79</StopID>
+        <TrackingNumber>1Z0174640393280715</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>1</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>79</StopID>
+        <TrackingNumber>1Z6304920350846700</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>1</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>80</StopID>
+        <TrackingNumber>1Z88Y7Y20358848112</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>29</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>81</StopID>
+        <TrackingNumber>1Z0308100305371174</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>21</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>82</StopID>
+        <TrackingNumber>1Z5W058R0351620562</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>30</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>83</StopID>
+        <TrackingNumber>1Z038Y532913258793</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>55</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>84</StopID>
+        <TrackingNumber>1ZE1W7530378881214</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>63</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>85</StopID>
+        <TrackingNumber>1Z6F084R0300168158</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>158</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>86</StopID>
+        <TrackingNumber>1ZRY52230393515876</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>158</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>87</StopID>
+        <TrackingNumber>1Z5257020356175578</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>164</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>88</StopID>
+        <TrackingNumber>1ZR7087E0294103589</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>171</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>89</StopID>
+        <TrackingNumber>1Z21A43F0319268619</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>105</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>89</StopID>
+        <TrackingNumber>1Z2831VR0394631528</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>105</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>89</StopID>
+        <TrackingNumber>1ZW216A70357154923</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>105</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>90</StopID>
+        <TrackingNumber>1ZV90R480383975834</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>105</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>91</StopID>
+        <TrackingNumber>1ZW227170320424574</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>105</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>92</StopID>
+        <TrackingNumber>1Z4310X30301581213</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>105</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>92</StopID>
+        <TrackingNumber>1Z602A6X0319068249</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>105</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>93</StopID>
+        <TrackingNumber>1Z21F58E0335545619</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>107</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>94</StopID>
+        <TrackingNumber>1Z1E0R430300851371</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>106</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>95</StopID>
+        <TrackingNumber>1ZW5A7500296928358</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>295</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>96</StopID>
+        <TrackingNumber>1ZW216A70357121691</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>295</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>97</StopID>
+        <TrackingNumber>1Z2713000315332250</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>247</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>97</StopID>
+        <TrackingNumber>1Z4785W00359136731</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>247</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>97</StopID>
+        <TrackingNumber>1ZRV78230389053330</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>247</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>98</StopID>
+        <TrackingNumber>1ZA4562R0398355013</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>205</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>99</StopID>
+        <TrackingNumber>1Z8880R90312311193</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>145</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>99</StopID>
+        <TrackingNumber>1Z8880R90312311200</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>145</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>100</StopID>
+        <TrackingNumber>1Z0A00441311895325</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>145</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>101</StopID>
+        <TrackingNumber>1Z867F7FP225600554</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>152</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>102</StopID>
+        <TrackingNumber>1ZY5261V1346998443</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>152</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>103</StopID>
+        <TrackingNumber>1ZW0Y5350350441236</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>152</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>104</StopID>
+        <TrackingNumber>1ZW9875W0340965338</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>154</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>105</StopID>
+        <TrackingNumber>1ZE0Y009P210716727</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>154</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>106</StopID>
+        <TrackingNumber>1Z3909E90378613785</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>239</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>107</StopID>
+        <TrackingNumber>1ZE042Y2YW90607439</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>323</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>107</StopID>
+        <TrackingNumber>1ZX752280348705079</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>323</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>108</StopID>
+        <TrackingNumber>1ZW0X0491344107691</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>65</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>109</StopID>
+        <TrackingNumber>1Z6985790375179195</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>202</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>109</StopID>
+        <TrackingNumber>1Z6985790375229603</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>202</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>109</StopID>
+        <TrackingNumber>1Z6985790375383188</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>202</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>109</StopID>
+        <TrackingNumber>1Z6985790375745573</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>202</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>110</StopID>
+        <TrackingNumber>1ZYA95470397647094</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>173</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>111</StopID>
+        <TrackingNumber>1Z5264240369710839</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>184</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>112</StopID>
+        <TrackingNumber>1Z658E260369749426</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>184</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>113</StopID>
+        <TrackingNumber>1Z4025X00372494275</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>285</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>114</StopID>
+        <TrackingNumber>1Z04104A0203034227</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>287</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>115</StopID>
+        <TrackingNumber>1ZA475Y40328616029</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>207</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>116</StopID>
+        <TrackingNumber>1Z185E060393795825</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>59</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>117</StopID>
+        <TrackingNumber>1Z8W22E00391686221</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>59</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>117</StopID>
+        <TrackingNumber>1Z8W22E00394500237</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>59</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>118</StopID>
+        <TrackingNumber>1Z2A490E0395810952</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>8</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>119</StopID>
+        <TrackingNumber>1Z607Y1E1359580029</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>8</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>120</StopID>
+        <TrackingNumber>1ZE15W320323103602</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>284</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+    <DIRPkg>
+        <ExportSchemaVersionID>01.00</ExportSchemaVersionID>
+        <DeliveryDate>2016-02-05T00:00:00</DeliveryDate>
+        <CountryCode>US</CountryCode>
+        <BldgMnemonic>MDHUN</BldgMnemonic>
+        <PreloadID>3928</PreloadID>
+        <SLIC>2110</SLIC>
+        <RteName>31A</RteName>
+        <LoadName>HWK</LoadName>
+        <StopID>121</StopID>
+        <TrackingNumber>1Z4F531Y0346967964</TrackingNumber>
+        <RouteID>600104</RouteID>
+        <LoadID>628706</LoadID>
+        <RDOOrder>288</RDOOrder>
+        <AddCutTime />
+        <AddCutUserID />
+        <DPSRoute />
+    </DIRPkg>
+</ArrayOfDIRPkg>

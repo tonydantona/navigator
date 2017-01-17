@@ -1,0 +1,2497 @@
+<?xml version="1.0" standalone="yes"?>
+<NavData>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>102</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>-1</ODO>
+        <NAPLat>39.524542</NAPLat>
+        <NAPLong>-76.652527</NAPLong>
+        <StNumber>909</StNumber>
+        <StPrefix />
+        <StName>RIDGEBROOK</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1617</ODOESST>
+        <ESST>1567</ESST>
+        <LSST>1667</LSST>
+        <SvcTime>0</SvcTime>
+        <SPLat>39.524552</SPLat>
+        <SPLong>-76.652587</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>FRONT DOOR</PickupPoint>
+        <PickupShipperName>INTELLITRACK, INC.</PickupShipperName>
+        <PickupShipperNumber>YW0004</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>71</StopID>
+        <LoadID>652206</LoadID>
+        <ODO>1</ODO>
+        <NAPLat>39.488274</NAPLat>
+        <NAPLong>-76.659689</NAPLong>
+        <StNumber>11126</StNumber>
+        <StPrefix />
+        <StName>MCCORMICK</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>HUNT VALLEY</City>
+        <State>MD</State>
+        <PostalCode>21031</PostalCode>
+        <ODOESST>734</ODOESST>
+        <ESST>700</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>15.432000160217285</SvcTime>
+        <SPLat>39.488297</SPLat>
+        <SPLong>-76.659561</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>74</StopID>
+        <LoadID>652206</LoadID>
+        <ODO>2</ODO>
+        <NAPLat>39.488544</NAPLat>
+        <NAPLong>-76.659295</NAPLong>
+        <StNumber>11111</StNumber>
+        <StPrefix />
+        <StName>GILROY</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>HUNT VALLEY</City>
+        <State>MD</State>
+        <PostalCode>21031</PostalCode>
+        <ODOESST>750</ODOESST>
+        <ESST>700</ESST>
+        <LSST>1500</LSST>
+        <SvcTime>19.774999618530273</SvcTime>
+        <SPLat>39.488559</SPLat>
+        <SPLong>-76.659297</SPLong>
+        <SvcBucket>PICKUP</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>73</StopID>
+        <LoadID>652206</LoadID>
+        <ODO>3</ODO>
+        <NAPLat>39.488544</NAPLat>
+        <NAPLong>-76.659295</NAPLong>
+        <StNumber>11111</StNumber>
+        <StPrefix />
+        <StName>GILROY</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>HUNT VALLEY</City>
+        <State>MD</State>
+        <PostalCode>21031</PostalCode>
+        <ODOESST>769</ODOESST>
+        <ESST>700</ESST>
+        <LSST>1050</LSST>
+        <SvcTime>29</SvcTime>
+        <SPLat>39.488559</SPLat>
+        <SPLong>-76.659297</SPLong>
+        <SvcBucket>SAVER</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>75</StopID>
+        <LoadID>652206</LoadID>
+        <ODO>4</ODO>
+        <NAPLat>39.488544</NAPLat>
+        <NAPLong>-76.659295</NAPLong>
+        <StNumber>11111</StNumber>
+        <StPrefix />
+        <StName>GILROY</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>HUNT VALLEY</City>
+        <State>MD</State>
+        <PostalCode>21031</PostalCode>
+        <ODOESST>798</ODOESST>
+        <ESST>700</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>55.786003112792969</SvcTime>
+        <SPLat>39.488559</SPLat>
+        <SPLong>-76.659297</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>72</StopID>
+        <LoadID>652206</LoadID>
+        <ODO>5</ODO>
+        <NAPLat>39.488274</NAPLat>
+        <NAPLong>-76.659689</NAPLong>
+        <StNumber>11126</StNumber>
+        <StPrefix />
+        <StName>MCCORMICK</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>HUNT VALLEY</City>
+        <State>MD</State>
+        <PostalCode>21031</PostalCode>
+        <ODOESST>854</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>5.5130000114440918</SvcTime>
+        <SPLat>39.488297</SPLat>
+        <SPLong>-76.659561</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>70</StopID>
+        <LoadID>652206</LoadID>
+        <ODO>6</ODO>
+        <NAPLat>39.484688</NAPLat>
+        <NAPLong>-76.65541</NAPLong>
+        <StNumber>10999</StNumber>
+        <StPrefix />
+        <StName>MCCORMICK</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>HUNT VALLEY</City>
+        <State>MD</State>
+        <PostalCode>21031</PostalCode>
+        <ODOESST>863</ODOESST>
+        <ESST>775</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>10.521999359130859</SvcTime>
+        <SPLat>39.484835</SPLat>
+        <SPLong>-76.655368</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>EOW</StopType>
+        <StopID>77</StopID>
+        <LoadID>652206</LoadID>
+        <ODO>7</ODO>
+        <NAPLat>39.516062</NAPLat>
+        <NAPLong>-76.643864</NAPLong>
+        <StNumber />
+        <StPrefix />
+        <StName />
+        <StSuffix />
+        <StType />
+        <City />
+        <State />
+        <PostalCode />
+        <ODOESST>883</ODOESST>
+        <ESST>850</ESST>
+        <LSST>950</LSST>
+        <SvcTime>17</SvcTime>
+        <SPLat>39.516057</SPLat>
+        <SPLong>-76.64386</SPLong>
+        <SvcBucket>32</SvcBucket>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>30</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>8</ODO>
+        <NAPLat>39.515147</NAPLat>
+        <NAPLong>-76.650244</NAPLong>
+        <StNumber>37</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>912</ODOESST>
+        <ESST>100</ESST>
+        <LSST>1500</LSST>
+        <SvcTime>2.9539999961853027</SvcTime>
+        <SPLat>39.515198</SPLat>
+        <SPLong>-76.650209</SPLong>
+        <SvcBucket>PICKUP</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>31</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>9</ODO>
+        <NAPLat>39.515147</NAPLat>
+        <NAPLong>-76.650244</NAPLong>
+        <StNumber>37</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>915</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>5.5369997024536133</SvcTime>
+        <SPLat>39.515198</SPLat>
+        <SPLong>-76.650209</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>25</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>10</ODO>
+        <NAPLat>39.517543</NAPLat>
+        <NAPLong>-76.649561</NAPLong>
+        <StNumber>25</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>923</ODOESST>
+        <ESST>100</ESST>
+        <LSST>1050</LSST>
+        <SvcTime>3.3229999542236328</SvcTime>
+        <SPLat>39.517575</SPLat>
+        <SPLong>-76.649543</SPLong>
+        <SvcBucket>SAVER</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>42</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>11</ODO>
+        <NAPLat>39.517012</NAPLat>
+        <NAPLong>-76.649774</NAPLong>
+        <StNumber>31</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>928</ODOESST>
+        <ESST>100</ESST>
+        <LSST>1050</LSST>
+        <SvcTime>2.9539999961853027</SvcTime>
+        <SPLat>39.51699</SPLat>
+        <SPLong>-76.649832</SPLong>
+        <SvcBucket>SAVER</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>43</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>12</ODO>
+        <NAPLat>39.517012</NAPLat>
+        <NAPLong>-76.649774</NAPLong>
+        <StNumber>31</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>931</ODOESST>
+        <ESST>100</ESST>
+        <LSST>1500</LSST>
+        <SvcTime>2.9539999961853027</SvcTime>
+        <SPLat>39.51699</SPLat>
+        <SPLong>-76.649832</SPLong>
+        <SvcBucket>PICKUP</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>44</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>13</ODO>
+        <NAPLat>39.517012</NAPLat>
+        <NAPLong>-76.649774</NAPLong>
+        <StNumber>31</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>934</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9539999961853027</SvcTime>
+        <SPLat>39.51699</SPLat>
+        <SPLong>-76.649832</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>27</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>14</ODO>
+        <NAPLat>39.516361</NAPLat>
+        <NAPLong>-76.652298</NAPLong>
+        <StNumber>26</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>939</ODOESST>
+        <ESST>100</ESST>
+        <LSST>1050</LSST>
+        <SvcTime>2.9539999961853027</SvcTime>
+        <SPLat>39.51643</SPLat>
+        <SPLong>-76.652309</SPLong>
+        <SvcBucket>SAVER</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>67</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>15</ODO>
+        <NAPLat>39.514592</NAPLat>
+        <NAPLong>-76.652877</NAPLong>
+        <StNumber>34</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>943</ODOESST>
+        <ESST>100</ESST>
+        <LSST>1050</LSST>
+        <SvcTime>2.9539999961853027</SvcTime>
+        <SPLat>39.514731</SPLat>
+        <SPLong>-76.652895</SPLong>
+        <SvcBucket>SAVER</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>68</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>16</ODO>
+        <NAPLat>39.514592</NAPLat>
+        <NAPLong>-76.652877</NAPLong>
+        <StNumber>34</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>946</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9539999961853027</SvcTime>
+        <SPLat>39.514731</SPLat>
+        <SPLong>-76.652895</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>33</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>17</ODO>
+        <NAPLat>39.517177</NAPLat>
+        <NAPLong>-76.648376</NAPLong>
+        <StNumber>39</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>953</ODOESST>
+        <ESST>100</ESST>
+        <LSST>1050</LSST>
+        <SvcTime>4.060999870300293</SvcTime>
+        <SPLat>39.517153</SPLat>
+        <SPLong>-76.648388</SPLong>
+        <SvcBucket>SAVER</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>34</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>18</ODO>
+        <NAPLat>39.517177</NAPLat>
+        <NAPLong>-76.648376</NAPLong>
+        <StNumber>39</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>957</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>5.1679997444152832</SvcTime>
+        <SPLat>39.517153</SPLat>
+        <SPLong>-76.648388</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>22</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>19</ODO>
+        <NAPLat>39.517545</NAPLat>
+        <NAPLong>-76.646655</NAPLong>
+        <StNumber>7</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>963</ODOESST>
+        <ESST>100</ESST>
+        <LSST>1050</LSST>
+        <SvcTime>13.654999732971191</SvcTime>
+        <SPLat>39.517567</SPLat>
+        <SPLong>-76.64664</SPLong>
+        <SvcBucket>SAVER</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>23</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>20</ODO>
+        <NAPLat>39.517545</NAPLat>
+        <NAPLong>-76.646655</NAPLong>
+        <StNumber>7</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>977</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>32.847000122070312</SvcTime>
+        <SPLat>39.517567</SPLat>
+        <SPLong>-76.64664</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>38</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>21</ODO>
+        <NAPLat>39.519917</NAPLat>
+        <NAPLong>-76.646698</NAPLong>
+        <StNumber>9</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1012</ODOESST>
+        <ESST>100</ESST>
+        <LSST>1050</LSST>
+        <SvcTime>2.9539999961853027</SvcTime>
+        <SPLat>39.519967</SPLat>
+        <SPLong>-76.646721</SPLong>
+        <SvcBucket>SAVER</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>39</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>22</ODO>
+        <NAPLat>39.519917</NAPLat>
+        <NAPLong>-76.646698</NAPLong>
+        <StNumber>9</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1015</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9539999961853027</SvcTime>
+        <SPLat>39.519967</SPLat>
+        <SPLong>-76.646721</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>35</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>23</ODO>
+        <NAPLat>39.51367</NAPLat>
+        <NAPLong>-76.645132</NAPLong>
+        <StNumber>60</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1021</ODOESST>
+        <ESST>100</ESST>
+        <LSST>1050</LSST>
+        <SvcTime>4.4300003051757812</SvcTime>
+        <SPLat>39.513889</SPLat>
+        <SPLong>-76.645171</SPLong>
+        <SvcBucket>SAVER</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>47</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>24</ODO>
+        <NAPLat>39.513941</NAPLat>
+        <NAPLong>-76.644045</NAPLong>
+        <StNumber>66</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1027</ODOESST>
+        <ESST>100</ESST>
+        <LSST>1050</LSST>
+        <SvcTime>3.3229999542236328</SvcTime>
+        <SPLat>39.513972</SPLat>
+        <SPLong>-76.643943</SPLong>
+        <SvcBucket>SAVER</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>48</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>25</ODO>
+        <NAPLat>39.513941</NAPLat>
+        <NAPLong>-76.644045</NAPLong>
+        <StNumber>66</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1031</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>5.1679997444152832</SvcTime>
+        <SPLat>39.513972</SPLat>
+        <SPLong>-76.643943</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>36</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>26</ODO>
+        <NAPLat>39.51367</NAPLat>
+        <NAPLong>-76.645132</NAPLong>
+        <StNumber>60</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1041</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>7.7529997825622559</SvcTime>
+        <SPLat>39.513889</SPLat>
+        <SPLong>-76.645171</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>40</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>27</ODO>
+        <NAPLat>39.520858</NAPLat>
+        <NAPLong>-76.646559</NAPLong>
+        <StNumber>10</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1053</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>4.060999870300293</SvcTime>
+        <SPLat>39.520874</SPLat>
+        <SPLong>-76.646473</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>24</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>28</ODO>
+        <NAPLat>39.518692</NAPLat>
+        <NAPLong>-76.648396</NAPLong>
+        <StNumber>19</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1059</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>4.7989997863769531</SvcTime>
+        <SPLat>39.518799</SPLat>
+        <SPLong>-76.648491</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>26</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>29</ODO>
+        <NAPLat>39.517543</NAPLat>
+        <NAPLong>-76.649561</NAPLong>
+        <StNumber>25</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1065</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>8.4910001754760742</SvcTime>
+        <SPLat>39.517575</SPLat>
+        <SPLong>-76.649543</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>41</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>30</ODO>
+        <NAPLat>39.520575</NAPLat>
+        <NAPLong>-76.650494</NAPLong>
+        <StNumber>18</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1076</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>4.7989997863769531</SvcTime>
+        <SPLat>39.520497</SPLat>
+        <SPLong>-76.650462</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>28</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>31</ODO>
+        <NAPLat>39.516361</NAPLat>
+        <NAPLong>-76.652298</NAPLong>
+        <StNumber>26</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1085</ODOESST>
+        <ESST>100</ESST>
+        <LSST>1500</LSST>
+        <SvcTime>2.9539999961853027</SvcTime>
+        <SPLat>39.51643</SPLat>
+        <SPLong>-76.652309</SPLong>
+        <SvcBucket>PICKUP</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>29</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>32</ODO>
+        <NAPLat>39.516361</NAPLat>
+        <NAPLong>-76.652298</NAPLong>
+        <StNumber>26</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1087</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>7.7529997825622559</SvcTime>
+        <SPLat>39.51643</SPLat>
+        <SPLong>-76.652309</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>32</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>33</ODO>
+        <NAPLat>39.513911</NAPLat>
+        <NAPLong>-76.651137</NAPLong>
+        <StNumber>38</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1097</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>3.3229999542236328</SvcTime>
+        <SPLat>39.513994</SPLat>
+        <SPLong>-76.651084</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>45</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>34</ODO>
+        <NAPLat>39.512689</NAPLat>
+        <NAPLong>-76.646294</NAPLong>
+        <StNumber>52</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1103</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9539999961853027</SvcTime>
+        <SPLat>39.512739</SPLat>
+        <SPLong>-76.646315</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>46</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>35</ODO>
+        <NAPLat>39.513721</NAPLat>
+        <NAPLong>-76.646711</NAPLong>
+        <StNumber>54</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1106</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9539999961853027</SvcTime>
+        <SPLat>39.513754</SPLat>
+        <SPLong>-76.64652</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>37</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>36</ODO>
+        <NAPLat>39.515389</NAPLat>
+        <NAPLong>-76.643493</NAPLong>
+        <StNumber>72</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1111</ODOESST>
+        <ESST>1025</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>5.9060001373291016</SvcTime>
+        <SPLat>39.515254</SPLat>
+        <SPLong>-76.643399</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>69</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>37</ODO>
+        <NAPLat>39.515582</NAPLat>
+        <NAPLong>-76.646861</NAPLong>
+        <StNumber>47</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1121</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>16.246000289916992</SvcTime>
+        <SPLat>39.515767</SPLat>
+        <SPLong>-76.646788</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>59</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>38</ODO>
+        <NAPLat>39.514598</NAPLat>
+        <NAPLong>-76.646948</NAPLong>
+        <StNumber>53</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1138</ODOESST>
+        <ESST>100</ESST>
+        <LSST>1500</LSST>
+        <SvcTime>2.9539999961853027</SvcTime>
+        <SPLat>39.514804</SPLat>
+        <SPLong>-76.646957</SPLong>
+        <SvcBucket>PICKUP</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>EOW</StopType>
+        <StopID>78</StopID>
+        <LoadID>652200</LoadID>
+        <ODO>39</ODO>
+        <NAPLat>39.516062</NAPLat>
+        <NAPLong>-76.643864</NAPLong>
+        <StNumber />
+        <StPrefix />
+        <StName />
+        <StSuffix />
+        <StType />
+        <City />
+        <State />
+        <PostalCode />
+        <ODOESST>1145</ODOESST>
+        <ESST>1100</ESST>
+        <LSST>1350</LSST>
+        <SvcTime>17</SvcTime>
+        <SPLat>39.516057</SPLat>
+        <SPLong>-76.64386</SPLong>
+        <SvcBucket>32</SvcBucket>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>94</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>40</ODO>
+        <NAPLat>39.517123</NAPLat>
+        <NAPLong>-76.644437</NAPLong>
+        <StNumber>14402</StNumber>
+        <StPrefix />
+        <StName>YORK</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1290</ODOESST>
+        <ESST>1250</ESST>
+        <LSST>1350</LSST>
+        <SvcTime>2.50600004196167</SvcTime>
+        <SPLat>39.517103</SPLat>
+        <SPLong>-76.644458</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>FRONT</PickupPoint>
+        <PickupShipperName>UPS (FUNCTION SHIPPING)</PickupShipperName>
+        <PickupShipperNumber>VE1638</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>93</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>41</ODO>
+        <NAPLat>39.517123</NAPLat>
+        <NAPLong>-76.644437</NAPLong>
+        <StNumber>14402</StNumber>
+        <StPrefix />
+        <StName>YORK</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1292</ODOESST>
+        <ESST>1250</ESST>
+        <LSST>1350</LSST>
+        <SvcTime>2.50600004196167</SvcTime>
+        <SPLat>39.517103</SPLat>
+        <SPLong>-76.644458</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>FRONT</PickupPoint>
+        <PickupShipperName>UPS (FUNCTION SHIPPING)</PickupShipperName>
+        <PickupShipperNumber>295081</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>49</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>42</ODO>
+        <NAPLat>39.522331</NAPLat>
+        <NAPLong>-76.629917</NAPLong>
+        <StNumber>1414</StNumber>
+        <StPrefix />
+        <StName>PHOENIX</StName>
+        <StSuffix>W</StSuffix>
+        <StType>RD</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1303</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9030001163482666</SvcTime>
+        <SPLat>39.522343</SPLat>
+        <SPLong>-76.629873</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>20</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>43</ODO>
+        <NAPLat>39.519734</NAPLat>
+        <NAPLong>-76.623724</NAPLong>
+        <StNumber>3</StNumber>
+        <StPrefix />
+        <StName>STARLIGHT FARM</StName>
+        <StSuffix />
+        <StType>DR</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1309</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9030001163482666</SvcTime>
+        <SPLat>39.519719</SPLat>
+        <SPLong>-76.623833</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>21</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>44</ODO>
+        <NAPLat>39.519148</NAPLat>
+        <NAPLong>-76.625014</NAPLong>
+        <StNumber>5</StNumber>
+        <StPrefix />
+        <StName>STARLIGHT FARM</StName>
+        <StSuffix />
+        <StType>DR</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1313</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9030001163482666</SvcTime>
+        <SPLat>39.519136</SPLat>
+        <SPLong>-76.624922</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>14</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>45</ODO>
+        <NAPLat>39.53124</NAPLat>
+        <NAPLong>-76.613819</NAPLong>
+        <StNumber>14737</StNumber>
+        <StPrefix />
+        <StName>CARROLL</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1324</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>3.1619999408721924</SvcTime>
+        <SPLat>39.531276</SPLat>
+        <SPLong>-76.613921</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>15</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>46</ODO>
+        <NAPLat>39.529152</NAPLat>
+        <NAPLong>-76.610797</NAPLong>
+        <StNumber>14707</StNumber>
+        <StPrefix />
+        <StName>CARROLL</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1329</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.7929999828338623</SvcTime>
+        <SPLat>39.528982</SPLat>
+        <SPLong>-76.610883</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>9</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>47</ODO>
+        <NAPLat>39.527367</NAPLat>
+        <NAPLong>-76.611579</NAPLong>
+        <StNumber>1916</StNumber>
+        <StPrefix />
+        <StName>STOCKTON</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1334</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.7929999828338623</SvcTime>
+        <SPLat>39.527421</SPLat>
+        <SPLong>-76.611561</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>65</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>48</ODO>
+        <NAPLat>39.53075</NAPLat>
+        <NAPLong>-76.62037</NAPLong>
+        <StNumber>14840</StNumber>
+        <StPrefix />
+        <StName>HUNTING</StName>
+        <StSuffix />
+        <StType>WAY</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1340</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.7929999828338623</SvcTime>
+        <SPLat>39.530704</SPLat>
+        <SPLong>-76.620554</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>64</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>49</ODO>
+        <NAPLat>39.527801</NAPLat>
+        <NAPLong>-76.616456</NAPLong>
+        <StNumber>14822</StNumber>
+        <StPrefix />
+        <StName>HUNTING</StName>
+        <StSuffix />
+        <StType>WAY</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1344</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.7929999828338623</SvcTime>
+        <SPLat>39.527747</SPLat>
+        <SPLong>-76.616494</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>66</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>50</ODO>
+        <NAPLat>39.52683</NAPLat>
+        <NAPLong>-76.617485</NAPLong>
+        <StNumber>4</StNumber>
+        <StPrefix />
+        <StName>HUNT CLUB</StName>
+        <StSuffix />
+        <StType>CT</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1347</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.7929999828338623</SvcTime>
+        <SPLat>39.526927</SPLat>
+        <SPLong>-76.617453</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>1</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>51</ODO>
+        <NAPLat>39.516585</NAPLat>
+        <NAPLong>-76.616833</NAPLong>
+        <StNumber>14305</StNumber>
+        <StPrefix />
+        <StName>PHOENIX</StName>
+        <StSuffix>W</StSuffix>
+        <StType>AVE</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1355</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9030001163482666</SvcTime>
+        <SPLat>39.516579</SPLat>
+        <SPLong>-76.616863</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>2</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>52</ODO>
+        <NAPLat>39.516346</NAPLat>
+        <NAPLong>-76.61592</NAPLong>
+        <StNumber>1807</StNumber>
+        <StPrefix />
+        <StName>MARYLAND</StName>
+        <StSuffix />
+        <StType>AVE</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1358</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9030001163482666</SvcTime>
+        <SPLat>39.516148</SPLat>
+        <SPLong>-76.615863</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>60</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>53</ODO>
+        <NAPLat>39.510852</NAPLat>
+        <NAPLong>-76.618245</NAPLong>
+        <StNumber>14102</StNumber>
+        <StPrefix />
+        <StName>PHOENIX</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1364</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9030001163482666</SvcTime>
+        <SPLat>39.510713</SPLat>
+        <SPLong>-76.618199</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>62</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>54</ODO>
+        <NAPLat>39.510732</NAPLat>
+        <NAPLong>-76.609808</NAPLong>
+        <StNumber>14101</StNumber>
+        <StPrefix />
+        <StName>PHOENIX</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1370</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>6.1749997138977051</SvcTime>
+        <SPLat>39.510966</SPLat>
+        <SPLong>-76.609719</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>true</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>6</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>55</ODO>
+        <NAPLat>39.513216</NAPLat>
+        <NAPLong>-76.61319</NAPLong>
+        <StNumber>17</StNumber>
+        <StPrefix />
+        <StName>LOCHWYND</StName>
+        <StSuffix />
+        <StType>CT</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1380</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9030001163482666</SvcTime>
+        <SPLat>39.513155</SPLat>
+        <SPLong>-76.613186</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>5</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>56</ODO>
+        <NAPLat>39.513255</NAPLat>
+        <NAPLong>-76.612488</NAPLong>
+        <StNumber>15</StNumber>
+        <StPrefix />
+        <StName>LOCHWYND</StName>
+        <StSuffix />
+        <StType>CT</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1383</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9030001163482666</SvcTime>
+        <SPLat>39.513135</SPLat>
+        <SPLong>-76.612524</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>4</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>57</ODO>
+        <NAPLat>39.513227</NAPLat>
+        <NAPLong>-76.611922</NAPLong>
+        <StNumber>14</StNumber>
+        <StPrefix />
+        <StName>LOCHWYND</StName>
+        <StSuffix />
+        <StType>CT</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1386</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>3.2719998359680176</SvcTime>
+        <SPLat>39.513406</SPLat>
+        <SPLong>-76.611919</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>3</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>58</ODO>
+        <NAPLat>39.513216</NAPLat>
+        <NAPLong>-76.611343</NAPLong>
+        <StNumber>12</StNumber>
+        <StPrefix />
+        <StName>LOCHWYND</StName>
+        <StSuffix />
+        <StType>CT</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1390</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>3.2719998359680176</SvcTime>
+        <SPLat>39.513533</SPLat>
+        <SPLong>-76.611337</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>50</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>59</ODO>
+        <NAPLat>39.513557</NAPLat>
+        <NAPLong>-76.607577</NAPLong>
+        <StNumber>2103</StNumber>
+        <StPrefix />
+        <StName>HIGHLAND RIDGE</StName>
+        <StSuffix />
+        <StType>DR</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1395</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9030001163482666</SvcTime>
+        <SPLat>39.513599</SPLat>
+        <SPLong>-76.607406</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>51</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>60</ODO>
+        <NAPLat>39.51518</NAPLat>
+        <NAPLong>-76.606566</NAPLong>
+        <StNumber>2109</StNumber>
+        <StPrefix />
+        <StName>HIGHLAND RIDGE</StName>
+        <StSuffix />
+        <StType>DR</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1399</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>3.6410000324249268</SvcTime>
+        <SPLat>39.515107</SPLat>
+        <SPLong>-76.606515</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>52</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>61</ODO>
+        <NAPLat>39.518848</NAPLat>
+        <NAPLong>-76.606374</NAPLong>
+        <StNumber>2130</StNumber>
+        <StPrefix />
+        <StName>HIGHLAND RIDGE</StName>
+        <StSuffix />
+        <StType>DR</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1404</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>3.6410000324249268</SvcTime>
+        <SPLat>39.518744</SPLat>
+        <SPLong>-76.606364</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>53</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>62</ODO>
+        <NAPLat>39.519658</NAPLat>
+        <NAPLong>-76.606943</NAPLong>
+        <StNumber>2133</StNumber>
+        <StPrefix />
+        <StName>HIGHLAND RIDGE</StName>
+        <StSuffix />
+        <StType>DR</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1409</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>3.2719998359680176</SvcTime>
+        <SPLat>39.519619</SPLat>
+        <SPLong>-76.607001</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>76</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>63</ODO>
+        <NAPLat>39.518434</NAPLat>
+        <NAPLong>-76.609529</NAPLong>
+        <StNumber>9</StNumber>
+        <StPrefix />
+        <StName>STEWARTS GLEN</StName>
+        <StSuffix />
+        <StType>DR</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1413</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9030001163482666</SvcTime>
+        <SPLat>39.518077</SPLat>
+        <SPLong>-76.6094</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>63</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>64</ODO>
+        <NAPLat>39.515002</NAPLat>
+        <NAPLong>-76.613412</NAPLong>
+        <StNumber>14223</StNumber>
+        <StPrefix />
+        <StName>PHOENIX</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1423</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>3.6410000324249268</SvcTime>
+        <SPLat>39.515032</SPLat>
+        <SPLong>-76.613352</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>61</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>65</ODO>
+        <NAPLat>39.517555</NAPLat>
+        <NAPLong>-76.615211</NAPLong>
+        <StNumber>14313</StNumber>
+        <StPrefix />
+        <StName>PHOENIX</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1428</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9030001163482666</SvcTime>
+        <SPLat>39.517836</SPLat>
+        <SPLong>-76.615311</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>96</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>66</ODO>
+        <NAPLat>39.524868</NAPLat>
+        <NAPLong>-76.644404</NAPLong>
+        <StNumber>14600</StNumber>
+        <StPrefix />
+        <StName>YORK</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1444</ODOESST>
+        <ESST>1400</ESST>
+        <LSST>1500</LSST>
+        <SvcTime>2.7100000381469727</SvcTime>
+        <SPLat>39.524815</SPLat>
+        <SPLong>-76.644675</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>BACK DOOR</PickupPoint>
+        <PickupShipperName>APEX TOOL GROUP</PickupShipperName>
+        <PickupShipperNumber>07A7V8</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>92</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>67</ODO>
+        <NAPLat>39.515608</NAPLat>
+        <NAPLong>-76.646828</NAPLong>
+        <StNumber>47</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1450</ODOESST>
+        <ESST>1450</ESST>
+        <LSST>1550</LSST>
+        <SvcTime>3.5499999523162842</SvcTime>
+        <SPLat>39.515675</SPLat>
+        <SPLong>-76.646881</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>FRONT</PickupPoint>
+        <PickupShipperName>JOHNSON,MIRMIRAN AND THOM</PickupShipperName>
+        <PickupShipperNumber>7VR618</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>84</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>68</ODO>
+        <NAPLat>39.513911</NAPLat>
+        <NAPLong>-76.651137</NAPLong>
+        <StNumber>38</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1457</ODOESST>
+        <ESST>1409</ESST>
+        <LSST>1509</LSST>
+        <SvcTime>2.7669999599456787</SvcTime>
+        <SPLat>39.513994</SPLat>
+        <SPLong>-76.651084</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>REAR</PickupPoint>
+        <PickupShipperName>TELEDYNE BROWN ENGINEERIN</PickupShipperName>
+        <PickupShipperNumber>78FV03</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>83</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>69</ODO>
+        <NAPLat>39.515147</NAPLat>
+        <NAPLong>-76.650244</NAPLong>
+        <StNumber>37</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1460</ODOESST>
+        <ESST>1425</ESST>
+        <LSST>1525</LSST>
+        <SvcTime>3.8110001087188721</SvcTime>
+        <SPLat>39.515198</SPLat>
+        <SPLong>-76.650209</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>FRONT DOOR</PickupPoint>
+        <PickupShipperName>JOHN SCHMITTERSONS</PickupShipperName>
+        <PickupShipperNumber>278812</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>82</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>70</ODO>
+        <NAPLat>39.517543</NAPLat>
+        <NAPLong>-76.649561</NAPLong>
+        <StNumber>25</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1467</ODOESST>
+        <ESST>1467</ESST>
+        <LSST>1567</LSST>
+        <SvcTime>5.1160001754760742</SvcTime>
+        <SPLat>39.517575</SPLat>
+        <SPLong>-76.649543</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>SIDE DOOR</PickupPoint>
+        <PickupShipperName>FIDELITY ENGINEERING</PickupShipperName>
+        <PickupShipperNumber>292467</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>58</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>71</ODO>
+        <NAPLat>39.5116</NAPLat>
+        <NAPLong>-76.598829</NAPLong>
+        <StNumber>33</StNumber>
+        <StPrefix />
+        <StName>FAIRWOOD VIEW</StName>
+        <StSuffix />
+        <StType>CT</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1491</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>4.2690000534057617</SvcTime>
+        <SPLat>39.511443</SPLat>
+        <SPLong>-76.598854</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>57</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>72</ODO>
+        <NAPLat>39.513533</NAPLat>
+        <NAPLong>-76.602401</NAPLong>
+        <StNumber>16</StNumber>
+        <StPrefix />
+        <StName>FAIRWOOD VIEW</StName>
+        <StSuffix />
+        <StType>CT</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1498</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>3.1619999408721924</SvcTime>
+        <SPLat>39.5135</SPLat>
+        <SPLong>-76.602385</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>12</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>73</ODO>
+        <NAPLat>39.51279</NAPLat>
+        <NAPLong>-76.593812</NAPLong>
+        <StNumber>15</StNumber>
+        <StPrefix />
+        <StName>MISTY HOLLOW</StName>
+        <StSuffix />
+        <StType>CT</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1505</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.7929999828338623</SvcTime>
+        <SPLat>39.512786</SPLat>
+        <SPLong>-76.593815</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>11</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>74</ODO>
+        <NAPLat>39.517307</NAPLat>
+        <NAPLong>-76.590274</NAPLong>
+        <StNumber>14411</StNumber>
+        <StPrefix />
+        <StName>COOPER</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1512</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.7929999828338623</SvcTime>
+        <SPLat>39.517275</SPLat>
+        <SPLong>-76.590242</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>10</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>75</ODO>
+        <NAPLat>39.517234</NAPLat>
+        <NAPLong>-76.591776</NAPLong>
+        <StNumber>14409</StNumber>
+        <StPrefix />
+        <StName>COOPER</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1516</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>3.1619999408721924</SvcTime>
+        <SPLat>39.51724</SPLat>
+        <SPLong>-76.591776</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>54</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>76</ODO>
+        <NAPLat>39.51994</NAPLat>
+        <NAPLong>-76.586813</NAPLong>
+        <StNumber>3</StNumber>
+        <StPrefix />
+        <StName>COOPERSTOWN</StName>
+        <StSuffix />
+        <StType>CT</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1523</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9030001163482666</SvcTime>
+        <SPLat>39.520043</SPLat>
+        <SPLong>-76.586782</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>56</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>77</ODO>
+        <NAPLat>39.521985</NAPLat>
+        <NAPLong>-76.586405</NAPLong>
+        <StNumber>12</StNumber>
+        <StPrefix />
+        <StName>COOPERSTOWN</StName>
+        <StSuffix />
+        <StType>CT</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1528</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9030001163482666</SvcTime>
+        <SPLat>39.522101</SPLat>
+        <SPLong>-76.586449</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>55</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>78</ODO>
+        <NAPLat>39.521811</NAPLat>
+        <NAPLong>-76.586882</NAPLong>
+        <StNumber>11</StNumber>
+        <StPrefix />
+        <StName>COOPERSTOWN</StName>
+        <StSuffix />
+        <StType>CT</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1531</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.9030001163482666</SvcTime>
+        <SPLat>39.521675</SPLat>
+        <SPLong>-76.586859</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>7</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>79</ODO>
+        <NAPLat>39.527568</NAPLat>
+        <NAPLong>-76.593559</NAPLong>
+        <StNumber>2414</StNumber>
+        <StPrefix />
+        <StName>STOCKTON</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1538</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.7929999828338623</SvcTime>
+        <SPLat>39.527537</SPLat>
+        <SPLong>-76.593528</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>13</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>80</ODO>
+        <NAPLat>39.532428</NAPLat>
+        <NAPLong>-76.598127</NAPLong>
+        <StNumber>2217</StNumber>
+        <StPrefix />
+        <StName>CARROLL MILL</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1546</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.7929999828338623</SvcTime>
+        <SPLat>39.532521</SPLat>
+        <SPLong>-76.598103</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>8</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>81</ODO>
+        <NAPLat>39.52536</NAPLat>
+        <NAPLong>-76.60867</NAPLong>
+        <StNumber>2005</StNumber>
+        <StPrefix />
+        <StName>STOCKTON</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1555</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.7929999828338623</SvcTime>
+        <SPLat>39.525324</SPLat>
+        <SPLong>-76.608732</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>100</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>82</ODO>
+        <NAPLat>39.527139</NAPLat>
+        <NAPLong>-76.647412</NAPLong>
+        <StNumber>952</StNumber>
+        <StPrefix />
+        <StName>RIDGEBROOK</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1574</ODOESST>
+        <ESST>1559</ESST>
+        <LSST>1659</LSST>
+        <SvcTime>2.9709999561309814</SvcTime>
+        <SPLat>39.527124</SPLat>
+        <SPLong>-76.647409</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>FRONT DOOR</PickupPoint>
+        <PickupShipperName>MORABITO CONSULTANTS</PickupShipperName>
+        <PickupShipperNumber>686406</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>99</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>83</ODO>
+        <NAPLat>39.527139</NAPLat>
+        <NAPLong>-76.647412</NAPLong>
+        <StNumber>952</StNumber>
+        <StPrefix />
+        <StName>RIDGEBROOK</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1577</ODOESST>
+        <ESST>1567</ESST>
+        <LSST>1667</LSST>
+        <SvcTime>2.9709999561309814</SvcTime>
+        <SPLat>39.527124</SPLat>
+        <SPLong>-76.647409</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>BACK</PickupPoint>
+        <PickupShipperName>HARVEY &amp; DAUGHTERS</PickupShipperName>
+        <PickupShipperNumber>X90W20</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>98</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>84</ODO>
+        <NAPLat>39.525378</NAPLat>
+        <NAPLong>-76.654715</NAPLong>
+        <StNumber>930</StNumber>
+        <StPrefix />
+        <StName>RIDGEBROOK</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1585</ODOESST>
+        <ESST>1567</ESST>
+        <LSST>1700</LSST>
+        <SvcTime>2.9709999561309814</SvcTime>
+        <SPLat>39.525506</SPLat>
+        <SPLong>-76.654813</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>MAILROOM</PickupPoint>
+        <PickupShipperName>FILA USA-CORP</PickupShipperName>
+        <PickupShipperNumber>153E5W</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>97</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>85</ODO>
+        <NAPLat>39.524168</NAPLat>
+        <NAPLong>-76.652243</NAPLong>
+        <StNumber>911</StNumber>
+        <StPrefix />
+        <StName>RIDGEBROOK</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1589</ODOESST>
+        <ESST>1577</ESST>
+        <LSST>1677</LSST>
+        <SvcTime>2.9709999561309814</SvcTime>
+        <SPLat>39.524196</SPLat>
+        <SPLong>-76.65224</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>FRONT DOOR</PickupPoint>
+        <PickupShipperName>ASSOCIATED &amp; ADMINISTRATO</PickupShipperName>
+        <PickupShipperNumber>2334E5</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>95</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>86</ODO>
+        <NAPLat>39.524868</NAPLat>
+        <NAPLong>-76.644404</NAPLong>
+        <StNumber>14600</StNumber>
+        <StPrefix />
+        <StName>YORK</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1595</ODOESST>
+        <ESST>1584</ESST>
+        <LSST>1684</LSST>
+        <SvcTime>14.977000236511231</SvcTime>
+        <SPLat>39.524815</SPLat>
+        <SPLong>-76.644675</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>BACK DOOR</PickupPoint>
+        <PickupShipperName>APEX TOOL GROUP</PickupShipperName>
+        <PickupShipperNumber>07A7V8</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>80</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>87</ODO>
+        <NAPLat>39.517545</NAPLat>
+        <NAPLong>-76.646655</NAPLong>
+        <StNumber>7</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1613</ODOESST>
+        <ESST>1525</ESST>
+        <LSST>1625</LSST>
+        <SvcTime>5.89900016784668</SvcTime>
+        <SPLat>39.517567</SPLat>
+        <SPLong>-76.64664</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>GUARD W/L D</PickupPoint>
+        <PickupShipperName>BD DIAGNOSTIC SYSTEMS LIT</PickupShipperName>
+        <PickupShipperNumber>269086</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>79</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>88</ODO>
+        <NAPLat>39.517545</NAPLat>
+        <NAPLong>-76.646655</NAPLong>
+        <StNumber>7</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1619</ODOESST>
+        <ESST>1600</ESST>
+        <LSST>1700</LSST>
+        <SvcTime>10.857999801635742</SvcTime>
+        <SPLat>39.517567</SPLat>
+        <SPLong>-76.64664</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>MAILROOM</PickupPoint>
+        <PickupShipperName>BD DIAGNOSTIC SYSTEMS</PickupShipperName>
+        <PickupShipperNumber>21E731</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>86</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>89</ODO>
+        <NAPLat>39.519917</NAPLat>
+        <NAPLong>-76.646698</NAPLong>
+        <StNumber>9</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1633</ODOESST>
+        <ESST>1550</ESST>
+        <LSST>1650</LSST>
+        <SvcTime>9.2919998168945312</SvcTime>
+        <SPLat>39.519967</SPLat>
+        <SPLong>-76.646721</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>DOCK</PickupPoint>
+        <PickupShipperName>JD NEUHAUS CO</PickupShipperName>
+        <PickupShipperNumber>X21533</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>81</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>90</ODO>
+        <NAPLat>39.518692</NAPLat>
+        <NAPLong>-76.648396</NAPLong>
+        <StNumber>19</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1644</ODOESST>
+        <ESST>1625</ESST>
+        <LSST>1725</LSST>
+        <SvcTime>3.0280001163482666</SvcTime>
+        <SPLat>39.518799</SPLat>
+        <SPLong>-76.648491</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>DOCK</PickupPoint>
+        <PickupShipperName>BRIMROSE CORP</PickupShipperName>
+        <PickupShipperNumber>274574</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>87</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>91</ODO>
+        <NAPLat>39.520575</NAPLat>
+        <NAPLong>-76.650494</NAPLong>
+        <StNumber>18</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1650</ODOESST>
+        <ESST>1609</ESST>
+        <LSST>1709</LSST>
+        <SvcTime>4.3330001831054688</SvcTime>
+        <SPLat>39.520497</SPLat>
+        <SPLong>-76.650462</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>MAILROOM</PickupPoint>
+        <PickupShipperName>MCCORMICK &amp; CO, INC/CORP.</PickupShipperName>
+        <PickupShipperNumber>20298X</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>91</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>92</ODO>
+        <NAPLat>39.514592</NAPLat>
+        <NAPLong>-76.652877</NAPLong>
+        <StNumber>34</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1657</ODOESST>
+        <ESST>1609</ESST>
+        <LSST>1709</LSST>
+        <SvcTime>2.7669999599456787</SvcTime>
+        <SPLat>39.514731</SPLat>
+        <SPLong>-76.652895</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>SHIPPING</PickupPoint>
+        <PickupShipperName>ACTIVE MINERALS</PickupShipperName>
+        <PickupShipperNumber>8Y48X1</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>89</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>93</ODO>
+        <NAPLat>39.513941</NAPLat>
+        <NAPLong>-76.644045</NAPLong>
+        <StNumber>66</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1664</ODOESST>
+        <ESST>1584</ESST>
+        <LSST>1684</LSST>
+        <SvcTime>3.0280001163482666</SvcTime>
+        <SPLat>39.513972</SPLat>
+        <SPLong>-76.643943</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>DOCK</PickupPoint>
+        <PickupShipperName>SUN AUTOMATION (P)</PickupShipperName>
+        <PickupShipperNumber>82EW59</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>85</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>94</ODO>
+        <NAPLat>39.515389</NAPLat>
+        <NAPLong>-76.643493</NAPLong>
+        <StNumber>72</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1668</ODOESST>
+        <ESST>1600</ESST>
+        <LSST>1700</LSST>
+        <SvcTime>5.89900016784668</SvcTime>
+        <SPLat>39.515254</SPLat>
+        <SPLong>-76.643399</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>FRONT</PickupPoint>
+        <PickupShipperName>JMT 200</PickupShipperName>
+        <PickupShipperNumber>288599</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>90</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>95</ODO>
+        <NAPLat>39.511809</NAPLat>
+        <NAPLong>-76.642184</NAPLong>
+        <StNumber>10</StNumber>
+        <StPrefix />
+        <StName>FILA</StName>
+        <StSuffix />
+        <StType>WAY</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1676</ODOESST>
+        <ESST>1625</ESST>
+        <LSST>1725</LSST>
+        <SvcTime>3.8110001087188721</SvcTime>
+        <SPLat>39.511791</SPLat>
+        <SPLong>-76.642276</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>SHIPPING</PickupPoint>
+        <PickupShipperName>DOVER SADDLERY HUNT VALLE</PickupShipperName>
+        <PickupShipperNumber>87268E</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>88</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>96</ODO>
+        <NAPLat>39.517012</NAPLat>
+        <NAPLong>-76.649774</NAPLong>
+        <StNumber>31</StNumber>
+        <StPrefix />
+        <StName>LOVETON</StName>
+        <StSuffix />
+        <StType>CIR</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1685</ODOESST>
+        <ESST>1517</ESST>
+        <LSST>1642</LSST>
+        <SvcTime>54.706001281738281</SvcTime>
+        <SPLat>39.51699</SPLat>
+        <SPLong>-76.649832</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>RAMP DOCK</PickupPoint>
+        <PickupShipperName>TAYLOR TECH</PickupShipperName>
+        <PickupShipperNumber>291279</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Pickup</StopType>
+        <StopID>101</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>97</ODO>
+        <NAPLat>39.526739</NAPLat>
+        <NAPLong>-76.645947</NAPLong>
+        <StNumber>954</StNumber>
+        <StPrefix />
+        <StName>RIDGEBROOK</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>SPARKS GLENCOE</City>
+        <State>MD</State>
+        <PostalCode>21152</PostalCode>
+        <ODOESST>1744</ODOESST>
+        <ESST>1567</ESST>
+        <LSST>1750</LSST>
+        <SvcTime>2.9709999561309814</SvcTime>
+        <SPLat>39.526828</SPLat>
+        <SPLong>-76.645963</SPLong>
+        <SvcBucket>16</SvcBucket>
+        <PickupPoint>INSIDE</PickupPoint>
+        <PickupShipperName>THE AFFLUENCE GROUP</PickupShipperName>
+        <PickupShipperNumber>744YX1</PickupShipperNumber>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>19</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>98</ODO>
+        <NAPLat>39.533591</NAPLat>
+        <NAPLong>-76.622711</NAPLong>
+        <StNumber>6</StNumber>
+        <StPrefix />
+        <StName>CARROLL RUN</StName>
+        <StSuffix />
+        <StType>CT</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1759</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.7929999828338623</SvcTime>
+        <SPLat>39.533576</SPLat>
+        <SPLong>-76.622676</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>18</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>99</ODO>
+        <NAPLat>39.529538</NAPLat>
+        <NAPLong>-76.625697</NAPLong>
+        <StNumber>9</StNumber>
+        <StPrefix />
+        <StName>CROSS CREEK</StName>
+        <StSuffix />
+        <StType>CT</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1765</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.7929999828338623</SvcTime>
+        <SPLat>39.529461</SPLat>
+        <SPLong>-76.625693</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>17</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>100</ODO>
+        <NAPLat>39.526291</NAPLat>
+        <NAPLong>-76.624036</NAPLong>
+        <StNumber>14620</StNumber>
+        <StPrefix />
+        <StName>PHILPOT</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1770</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.7929999828338623</SvcTime>
+        <SPLat>39.52621</SPLat>
+        <SPLong>-76.624005</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+    <NavStop>
+        <StopType>Delivery</StopType>
+        <StopID>16</StopID>
+        <LoadID>652203</LoadID>
+        <ODO>101</ODO>
+        <NAPLat>39.523779</NAPLat>
+        <NAPLong>-76.619297</NAPLong>
+        <StNumber>14607</StNumber>
+        <StPrefix />
+        <StName>PHILPOT</StName>
+        <StSuffix />
+        <StType>RD</StType>
+        <City>PHOENIX</City>
+        <State>MD</State>
+        <PostalCode>21131</PostalCode>
+        <ODOESST>1776</ODOESST>
+        <ESST>100</ESST>
+        <LSST>2399</LSST>
+        <SvcTime>2.7929999828338623</SvcTime>
+        <SPLat>39.523786</SPLat>
+        <SPLong>-76.619325</SPLong>
+        <SvcBucket>8</SvcBucket>
+        <ResCommIndicator>false</ResCommIndicator>
+    </NavStop>
+</NavData>
